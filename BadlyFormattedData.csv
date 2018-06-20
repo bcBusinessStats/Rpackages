@@ -1,0 +1,11 @@
+﻿**this is an example of badly formatted data that you'll find ,,
+**from external sources that you need to analyze in R.,,
+**You may well spend more time wrangling your data into the format you need,,
+** than you do actually analyzing it.,,
+19,Registered,12/14/08 6:03
+27,Not registered,8/21/11 12:41
+28,Not registered,11/22/09 3:03
+42,Registered,4/15/13 0:00
+19,Registered,8/24/11 5:19
+19,Not registered,1/5/03 0:04
+52*,Registered,8/26/11 16:49

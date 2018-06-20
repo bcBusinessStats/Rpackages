@@ -1,0 +1,10 @@
+Package: data1135
+Title: Data for Business Statistics OPER1135
+Version: 0.0.0.9000
+Authors@R: person("Stephanie", "Jernigan", email = "stephanie.jernigan.2@bc.edu", role = c("aut", "cre"))
+Description: This package contains data sets to be used for in-class exercises, homework, and technology labs.
+Depends: R (>= 3.4.0)
+License: What license is it under? GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
