@@ -1,0 +1,610 @@
+﻿gender,age,primary_sns,how_often_visit
+Male,15,Google Plus,3 to 5 days a week
+Male,17,Facebook,1 to 2 days a week
+Female,15,Facebook,3 to 5 days a week
+Female,14,Facebook,Several times a day
+Male,16,Facebook,Less often
+Male,15,Facebook,3 to 5 days a week
+Male,17,Facebook,About once a day
+Male,13,Google Plus,Every few weeks
+Male,14,Facebook,Several times a day
+Male,17,Facebook,Several times a day
+Male,16,Facebook,Several times a day
+Male,12,Facebook,Less often
+Female,17,Facebook,Several times a day
+Female,14,Facebook,Several times a day
+Female,12,Instagram,Several times a day
+Female,15,Facebook,About once a day
+Female,16,YouTube,Several times a day
+Male,16,Other,1 to 2 days a week
+Male,15,Facebook,1 to 2 days a week
+Male,15,Facebook,3 to 5 days a week
+Female,16,Facebook,About once a day
+Male,14,Facebook,About once a day
+Male,17,Facebook,3 to 5 days a week
+Female,16,Twitter,About once a day
+Male,17,Facebook,About once a day
+Female,15,Instagram,About once a day
+Male,12,Facebook,1 to 2 days a week
+Female,15,Twitter,Several times a day
+Female,14,Facebook,About once a day
+Male,17,Facebook,3 to 5 days a week
+Male,17,Twitter,Several times a day
+Female,17,Facebook,Several times a day
+Male,12,Facebook,About once a day
+Female,15,Twitter,Several times a day
+Female,14,Facebook,3 to 5 days a week
+Female,17,Facebook,Several times a day
+Female,15,Facebook,Several times a day
+Male,14,Facebook,Several times a day
+Female,16,YouTube,Several times a day
+Female,12,Facebook,1 to 2 days a week
+Male,13,Facebook,About once a day
+Female,16,Instagram,1 to 2 days a week
+Male,17,Facebook,Several times a day
+Male,14,Facebook,About once a day
+Male,17,Facebook,Several times a day
+Female,13,YouTube,Several times a day
+Female,15,Tumblr,Several times a day
+Female,15,Tumblr,About once a day
+Male,16,Facebook,Less often
+Female,15,Facebook,Every few weeks
+Male,16,Facebook,1 to 2 days a week
+Male,13,Facebook,3 to 5 days a week
+Female,12,Facebook,Several times a day
+Female,14,Facebook,3 to 5 days a week
+Female,17,Facebook,Several times a day
+Female,15,Twitter,Several times a day
+Female,16,Facebook,About once a day
+Male,16,Facebook,Less often
+Male,17,Twitter,About once a day
+Female,12,Instagram,Several times a day
+Male,17,Facebook,About once a day
+Female,15,Tumblr,Several times a day
+Male,14,Facebook,3 to 5 days a week
+Male,15,Facebook,About once a day
+Female,16,Facebook,Several times a day
+Female,15,Twitter,Several times a day
+Female,12,Facebook,Several times a day
+Male,17,Facebook,Several times a day
+Female,17,Facebook,Several times a day
+Female,15,Facebook,Several times a day
+Female,17,Facebook,Several times a day
+Male,16,Facebook,Several times a day
+Female,15,Facebook,Every few weeks
+Female,13,Facebook,Less often
+Female,17,Facebook,Several times a day
+Female,15,Facebook,About once a day
+Female,13,Tumblr,3 to 5 days a week
+Male,15,Facebook,About once a day
+Female,17,Facebook,About once a day
+Male,14,Facebook,1 to 2 days a week
+Female,13,Facebook,About once a day
+Male,16,Facebook,Several times a day
+Female,16,Tumblr,Several times a day
+Male,17,Facebook,About once a day
+Female,17,Facebook,Several times a day
+Female,17,Facebook,1 to 2 days a week
+Male,13,Facebook,About once a day
+Male,13,Facebook,3 to 5 days a week
+Female,14,Facebook,1 to 2 days a week
+Male,15,Facebook,Several times a day
+Female,17,Facebook,About once a day
+Male,17,Instagram,Several times a day
+Female,16,Facebook,1 to 2 days a week
+Male,17,Facebook,Every few weeks
+Male,12,Instagram,About once a day
+Female,15,Twitter,Several times a day
+Female,13,Facebook,Several times a day
+Female,13,Instagram,Several times a day
+Female,17,Facebook,About once a day
+Male,13,Facebook,1 to 2 days a week
+Female,16,Facebook,Less often
+Male,16,Facebook,About once a day
+Female,12,Facebook,Several times a day
+Female,16,Facebook,Several times a day
+Male,16,Facebook,About once a day
+Male,16,Facebook,Several times a day
+Female,13,Twitter,Several times a day
+Female,15,Facebook,Several times a day
+Female,17,Facebook,About once a day
+Male,17,Instagram,Several times a day
+Male,13,Facebook,Several times a day
+Female,14,Facebook,About once a day
+Female,16,Facebook,3 to 5 days a week
+Male,16,Facebook,Several times a day
+Female,15,Facebook,3 to 5 days a week
+Male,15,Facebook,Several times a day
+Female,17,Facebook,1 to 2 days a week
+Female,17,Facebook,Several times a day
+Male,14,Facebook,Several times a day
+Male,13,Facebook,About once a day
+Female,17,Facebook,Several times a day
+Female,13,Tumblr,About once a day
+Male,15,Twitter,Several times a day
+Male,16,Facebook,1 to 2 days a week
+Female,17,Other,Less often
+Female,17,Instagram,Several times a day
+Male,12,Facebook,3 to 5 days a week
+Male,14,Facebook,Several times a day
+Female,15,Facebook,About once a day
+Male,15,Facebook,Several times a day
+Female,15,Facebook,Several times a day
+Female,17,Facebook,Less often
+Male,15,Facebook,1 to 2 days a week
+Male,15,Facebook,3 to 5 days a week
+Female,13,Facebook,Several times a day
+Female,12,Instagram,Several times a day
+Male,15,Facebook,3 to 5 days a week
+Female,15,Facebook,About once a day
+Female,14,Facebook,3 to 5 days a week
+Female,12,Facebook,About once a day
+Female,16,Pinterest,Several times a day
+Male,13,Facebook,Several times a day
+Male,15,Facebook,1 to 2 days a week
+Female,16,Facebook,About once a day
+Male,15,Facebook,3 to 5 days a week
+Male,13,Facebook,Every few weeks
+Female,14,Other,About once a day
+Male,13,Facebook,Several times a day
+Male,15,Facebook,1 to 2 days a week
+Female,16,Instagram,About once a day
+Female,15,Tumblr,3 to 5 days a week
+Female,16,Facebook,Several times a day
+Male,12,Facebook,Don't know
+Male,15,Facebook,Several times a day
+Male,17,Facebook,Several times a day
+Male,16,Facebook,3 to 5 days a week
+Male,12,Facebook,About once a day
+Female,16,Facebook,1 to 2 days a week
+Female,17,Facebook,1 to 2 days a week
+Female,15,Facebook,About once a day
+Male,15,Facebook,About once a day
+Male,15,Tumblr,Several times a day
+Female,17,Twitter,Several times a day
+Male,15,Facebook,About once a day
+Female,13,Facebook,Less often
+Male,15,Facebook,About once a day
+Female,13,Instagram,Several times a day
+Male,13,Facebook,Several times a day
+Female,16,Facebook,About once a day
+Male,15,Facebook,3 to 5 days a week
+Male,15,Facebook,Several times a day
+Female,17,Facebook,About once a day
+Female,15,Facebook,1 to 2 days a week
+Female,14,Twitter,Several times a day
+Female,17,Facebook,Several times a day
+Female,12,Instagram,Several times a day
+Female,14,Facebook,About once a day
+Male,13,Facebook,3 to 5 days a week
+Female,17,Facebook,About once a day
+Female,14,Facebook,Every few weeks
+Female,15,Facebook,About once a day
+Female,13,Facebook,Every few weeks
+Male,17,Facebook,About once a day
+Female,16,Facebook,Several times a day
+Female,17,Facebook,3 to 5 days a week
+Male,16,Facebook,Several times a day
+Female,15,Facebook,Several times a day
+Female,16,Instagram,Several times a day
+Male,17,Facebook,Several times a day
+Female,14,Facebook,About once a day
+Male,13,Facebook,About once a day
+Male,13,Facebook,3 to 5 days a week
+Female,14,Facebook,Several times a day
+Male,14,Facebook,Several times a day
+Female,17,Facebook,Several times a day
+Female,14,Facebook,Every few weeks
+Male,13,Facebook,Every few weeks
+Male,12,Facebook,3 to 5 days a week
+Female,13,Facebook,About once a day
+Female,16,Facebook,Several times a day
+Female,12,Facebook,Several times a day
+Male,17,Facebook,3 to 5 days a week
+Female,16,Instagram,Several times a day
+Female,13,Facebook,Several times a day
+Male,13,YouTube,1 to 2 days a week
+Male,14,Facebook,1 to 2 days a week
+Female,16,Facebook,About once a day
+Female,16,Facebook,3 to 5 days a week
+Male,16,Facebook,3 to 5 days a week
+Male,14,Facebook,3 to 5 days a week
+Male,15,Facebook,Several times a day
+Male,14,Facebook,Several times a day
+Male,15,Facebook,Several times a day
+Male,15,Facebook,Several times a day
+Female,17,Facebook,3 to 5 days a week
+Female,16,Facebook,About once a day
+Female,13,Instagram,Several times a day
+Female,17,Facebook,About once a day
+Male,14,Facebook,Several times a day
+Female,13,YouTube,Several times a day
+Female,14,Facebook,Several times a day
+Female,15,Facebook,Several times a day
+Female,17,Twitter,Several times a day
+Female,13,Facebook,Several times a day
+Male,16,Facebook,About once a day
+Female,14,Facebook,Several times a day
+Male,16,Facebook,About once a day
+Female,16,Facebook,About once a day
+Male,15,Facebook,1 to 2 days a week
+Female,16,Facebook,About once a day
+Male,14,Facebook,Several times a day
+Male,17,Twitter,Several times a day
+Female,14,Facebook,Several times a day
+Female,14,Twitter,Several times a day
+Female,16,Facebook,About once a day
+Male,15,Facebook,About once a day
+Male,15,Facebook,Several times a day
+Male,14,Facebook,About once a day
+Female,14,Facebook,Several times a day
+Male,15,Facebook,About once a day
+Female,16,Facebook,Several times a day
+Female,12,Other,About once a day
+Male,17,Facebook,Several times a day
+Male,12,Facebook,About once a day
+Male,15,Facebook,About once a day
+Female,15,Facebook,Several times a day
+Female,17,Instagram,About once a day
+Female,16,Facebook,3 to 5 days a week
+Male,15,Twitter,Several times a day
+Male,17,Facebook,About once a day
+Male,13,Facebook,3 to 5 days a week
+Female,14,Facebook,About once a day
+Female,14,Other,About once a day
+Male,15,Facebook,3 to 5 days a week
+Female,17,Facebook,About once a day
+Female,15,Facebook,About once a day
+Male,12,Facebook,Less often
+Male,12,Google Plus,About once a day
+Female,15,Facebook,About once a day
+Female,16,Facebook,Several times a day
+Male,15,Facebook,About once a day
+Female,14,Facebook,About once a day
+Female,15,Facebook,Several times a day
+Male,14,Facebook,Less often
+Female,16,Facebook,Several times a day
+Female,14,Facebook,About once a day
+Male,17,Facebook,Several times a day
+Male,16,Facebook,About once a day
+Female,13,Facebook,3 to 5 days a week
+Female,14,Facebook,Several times a day
+Male,17,Facebook,Several times a day
+Female,15,Facebook,Several times a day
+Female,15,Facebook,About once a day
+Female,16,Facebook,Several times a day
+Male,13,Facebook,1 to 2 days a week
+Female,13,Twitter,About once a day
+Female,15,Facebook,1 to 2 days a week
+Male,15,Facebook,1 to 2 days a week
+Female,15,Facebook,About once a day
+Female,13,Twitter,Several times a day
+Female,15,Twitter,Several times a day
+Female,14,Facebook,3 to 5 days a week
+Female,13,Facebook,About once a day
+Male,13,Facebook,Every few weeks
+Female,12,Facebook,3 to 5 days a week
+Female,14,Twitter,About once a day
+Male,16,Facebook,Several times a day
+Female,13,Instagram,Several times a day
+Female,14,Facebook,Less often
+Female,12,Instagram,About once a day
+Male,15,Facebook,3 to 5 days a week
+Male,17,Facebook,Several times a day
+Male,15,Facebook,Several times a day
+Female,14,Facebook,Several times a day
+Female,16,Twitter,Less often
+Female,17,Facebook,Several times a day
+Male,17,Facebook,Several times a day
+Female,13,Facebook,Several times a day
+Male,15,Facebook,Less often
+Male,12,YouTube,About once a day
+Male,17,Facebook,About once a day
+Male,15,Facebook,Less often
+Female,17,Facebook,Several times a day
+Female,14,Facebook,Less often
+Male,15,Facebook,Several times a day
+Male,16,Facebook,3 to 5 days a week
+Female,12,Facebook,About once a day
+Female,14,Facebook,Every few weeks
+Female,15,Facebook,Several times a day
+Male,16,Facebook,3 to 5 days a week
+Female,16,Facebook,Several times a day
+Male,16,Twitter,Every few weeks
+Female,13,Facebook,1 to 2 days a week
+Female,13,Facebook,About once a day
+Male,15,Facebook,About once a day
+Female,15,Twitter,Several times a day
+Male,17,Facebook,1 to 2 days a week
+Female,16,Twitter,About once a day
+Female,17,Facebook,About once a day
+Female,14,Facebook,About once a day
+Male,17,Facebook,Every few weeks
+Male,14,Facebook,About once a day
+Male,14,Facebook,1 to 2 days a week
+Male,15,Facebook,About once a day
+Male,15,Facebook,Every few weeks
+Male,17,Facebook,About once a day
+Male,12,Facebook,About once a day
+Male,17,Facebook,3 to 5 days a week
+Male,16,Facebook,3 to 5 days a week
+Female,17,Facebook,Several times a day
+Female,14,Facebook,About once a day
+Female,17,Facebook,3 to 5 days a week
+Male,16,Facebook,About once a day
+Female,16,Facebook,Several times a day
+Male,12,Facebook,About once a day
+Female,17,Facebook,1 to 2 days a week
+Female,12,Facebook,3 to 5 days a week
+Male,17,Facebook,About once a day
+Male,16,Facebook,Several times a day
+Female,15,Tumblr,About once a day
+Female,15,Instagram,Several times a day
+Female,15,Tumblr,Several times a day
+Female,17,Twitter,About once a day
+Female,13,Facebook,Several times a day
+Female,17,Twitter,Every few weeks
+Male,14,Facebook,About once a day
+Male,15,Instagram,1 to 2 days a week
+Female,16,Facebook,Less often
+Female,17,Facebook,Several times a day
+Male,15,Facebook,About once a day
+Male,16,Facebook,About once a day
+Female,12,Facebook,Less often
+Female,17,Twitter,Several times a day
+Male,14,Facebook,Several times a day
+Male,13,Facebook,Several times a day
+Female,12,Instagram,Several times a day
+Male,14,Facebook,Every few weeks
+Female,15,Twitter,3 to 5 days a week
+Male,12,Twitter,Less often
+Male,16,Facebook,Every few weeks
+Male,15,Facebook,Every few weeks
+Male,17,Facebook,About once a day
+Male,16,Facebook,About once a day
+Female,16,Facebook,Less often
+Male,17,Facebook,Every few weeks
+Male,15,Facebook,About once a day
+Female,17,Facebook,3 to 5 days a week
+Male,16,Facebook,Several times a day
+Female,15,Facebook,Every few weeks
+Male,16,Twitter,About once a day
+Male,16,Facebook,About once a day
+Male,16,Facebook,Several times a day
+Male,13,Facebook,Several times a day
+Female,17,Twitter,Several times a day
+Female,15,Facebook,Several times a day
+Male,13,Facebook,Every few weeks
+Male,12,Facebook,1 to 2 days a week
+Male,14,Facebook,About once a day
+Female,13,Facebook,About once a day
+Male,16,Twitter,Several times a day
+Male,17,Facebook,Several times a day
+Female,14,Facebook,Several times a day
+Male,15,Facebook,Several times a day
+Female,13,Facebook,Less often
+Female,13,Facebook,About once a day
+Female,17,Facebook,Several times a day
+Male,17,Twitter,Several times a day
+Male,12,Facebook,3 to 5 days a week
+Male,13,YouTube,Don't know
+Female,17,Facebook,Several times a day
+Female,17,Facebook,Several times a day
+Female,12,Facebook,Every few weeks
+Female,15,Facebook,About once a day
+Male,17,Facebook,Several times a day
+Female,15,Facebook,Several times a day
+Female,13,Facebook,3 to 5 days a week
+Male,17,Instagram,About once a day
+Female,17,Facebook,Several times a day
+Male,13,Facebook,3 to 5 days a week
+Male,14,Facebook,1 to 2 days a week
+Female,17,Facebook,Several times a day
+Female,14,Facebook,About once a day
+Male,15,Twitter,Several times a day
+Male,16,Twitter,Several times a day
+Male,16,Facebook,About once a day
+Female,16,Facebook,About once a day
+Female,14,Facebook,About once a day
+Male,15,Facebook,3 to 5 days a week
+Male,17,Facebook,Several times a day
+Male,17,Facebook,Every few weeks
+Female,13,Tumblr,Several times a day
+Male,17,Facebook,About once a day
+Male,16,Facebook,Less often
+Male,17,Facebook,1 to 2 days a week
+Male,16,Twitter,About once a day
+Male,14,Facebook,About once a day
+Female,17,Facebook,Several times a day
+Female,13,Facebook,About once a day
+Male,16,Facebook,3 to 5 days a week
+Male,12,Facebook,Several times a day
+Male,14,Facebook,3 to 5 days a week
+Male,17,Instagram,Several times a day
+Male,12,Facebook,Every few weeks
+Female,17,Facebook,Several times a day
+Male,14,Facebook,1 to 2 days a week
+Female,15,Facebook,About once a day
+Male,16,Facebook,1 to 2 days a week
+Male,14,Facebook,Several times a day
+Female,13,Twitter,Less often
+Female,13,Facebook,Less often
+Female,16,Facebook,Several times a day
+Male,17,Facebook,Several times a day
+Female,15,Instagram,Several times a day
+Female,14,Facebook,Several times a day
+Male,13,Facebook,Less often
+Male,16,Twitter,Several times a day
+Male,16,Facebook,Several times a day
+Female,16,Twitter,Several times a day
+Male,16,Facebook,About once a day
+Female,16,Facebook,Several times a day
+Female,13,Facebook,3 to 5 days a week
+Male,14,Facebook,Less often
+Male,13,Other,About once a day
+Female,14,Facebook,3 to 5 days a week
+Female,16,Facebook,Several times a day
+Female,14,YouTube,Several times a day
+Male,12,Facebook,About once a day
+Male,14,Facebook,1 to 2 days a week
+Male,16,Twitter,Several times a day
+Female,16,Facebook,Several times a day
+Male,16,Facebook,Several times a day
+Female,16,Facebook,Several times a day
+Male,14,Facebook,About once a day
+Male,16,Facebook,3 to 5 days a week
+Female,17,Facebook,Several times a day
+Male,17,Facebook,Several times a day
+Male,17,Facebook,Several times a day
+Male,12,Facebook,1 to 2 days a week
+Female,17,Other,About once a day
+Male,16,Twitter,Several times a day
+Female,16,Facebook,Several times a day
+Female,14,Google Plus,Several times a day
+Male,15,Facebook,Several times a day
+Male,17,Facebook,Several times a day
+Female,16,Facebook,Several times a day
+Female,14,Facebook,Several times a day
+Female,17,Facebook,Several times a day
+Female,17,Twitter,Several times a day
+Male,14,Facebook,3 to 5 days a week
+Female,15,Facebook,Less often
+Female,12,Facebook,3 to 5 days a week
+Female,17,Facebook,About once a day
+Male,13,Facebook,About once a day
+Female,13,Facebook,Several times a day
+Male,13,Facebook,About once a day
+Female,13,Instagram,Several times a day
+Male,16,Facebook,1 to 2 days a week
+Female,13,Facebook,About once a day
+Female,17,Twitter,Several times a day
+Male,13,Facebook,Less often
+Female,16,Instagram,Several times a day
+Male,16,Facebook,Several times a day
+Female,13,Facebook,About once a day
+Male,17,Facebook,Several times a day
+Female,14,Twitter,About once a day
+Female,17,Facebook,Several times a day
+Male,15,Facebook,Several times a day
+Male,16,Twitter,Several times a day
+Male,16,Facebook,Several times a day
+Male,15,Facebook,Several times a day
+Female,17,Facebook,1 to 2 days a week
+Female,17,Facebook,1 to 2 days a week
+Female,16,Tumblr,Several times a day
+Female,13,Other,About once a day
+Female,14,Twitter,Several times a day
+Female,16,Twitter,Several times a day
+Male,14,Facebook,1 to 2 days a week
+Male,17,Facebook,About once a day
+Female,16,Facebook,3 to 5 days a week
+Male,15,Facebook,Every few weeks
+Female,12,Facebook,Less often
+Male,15,Facebook,About once a day
+Female,12,Facebook,About once a day
+Male,16,Facebook,3 to 5 days a week
+Male,12,Facebook,About once a day
+Male,16,Facebook,About once a day
+Female,14,Other,Several times a day
+Male,12,Facebook,3 to 5 days a week
+Female,13,Facebook,Several times a day
+Female,16,Facebook,Several times a day
+Male,16,Twitter,Several times a day
+Male,16,Twitter,Several times a day
+Female,13,Facebook,3 to 5 days a week
+Male,16,Facebook,About once a day
+Female,15,Twitter,Several times a day
+Male,14,Facebook,About once a day
+Female,17,Facebook,Several times a day
+Female,16,Facebook,Several times a day
+Female,16,Facebook,Several times a day
+Male,13,Facebook,3 to 5 days a week
+Male,15,Facebook,Every few weeks
+Female,12,Facebook,3 to 5 days a week
+Male,13,Facebook,About once a day
+Male,12,Facebook,About once a day
+Male,16,YouTube,Several times a day
+Female,13,Facebook,Several times a day
+Male,17,Facebook,Several times a day
+Female,12,Facebook,1 to 2 days a week
+Female,16,Facebook,About once a day
+Male,15,Facebook,About once a day
+Female,17,Facebook,Several times a day
+Male,16,Facebook,Several times a day
+Female,14,Twitter,About once a day
+Female,13,Facebook,Less often
+Male,15,Facebook,3 to 5 days a week
+Male,15,Facebook,Several times a day
+Male,16,Facebook,About once a day
+Female,14,Facebook,3 to 5 days a week
+Male,15,Facebook,1 to 2 days a week
+Male,17,Facebook,Several times a day
+Male,16,Facebook,Several times a day
+Male,13,Facebook,About once a day
+Male,15,Facebook,Several times a day
+Female,16,Facebook,Every few weeks
+Male,13,Facebook,3 to 5 days a week
+Male,17,Facebook,About once a day
+Female,13,Facebook,About once a day
+Female,12,Facebook,About once a day
+Female,13,Facebook,Several times a day
+Male,14,Facebook,Several times a day
+Male,15,Facebook,Several times a day
+Male,17,Instagram,Several times a day
+Female,17,Facebook,Several times a day
+Female,13,Facebook,About once a day
+Male,17,YouTube,1 to 2 days a week
+Female,17,Facebook,Several times a day
+Male,17,Facebook,About once a day
+Female,16,Facebook,Several times a day
+Male,13,Facebook,3 to 5 days a week
+Male,13,YouTube,Several times a day
+Female,14,Facebook,Several times a day
+Female,17,Facebook,About once a day
+Male,16,Facebook,1 to 2 days a week
+Male,15,Facebook,Every few weeks
+Male,17,Facebook,Every few weeks
+Female,17,Facebook,Several times a day
+Male,14,Facebook,Several times a day
+Male,12,Facebook,Several times a day
+Female,13,Facebook,About once a day
+Female,12,Facebook,1 to 2 days a week
+Female,17,Twitter,Several times a day
+Female,15,Facebook,3 to 5 days a week
+Female,13,Facebook,3 to 5 days a week
+Male,16,Facebook,Several times a day
+Male,16,Other,About once a day
+Female,14,Facebook,Every few weeks
+Male,17,Facebook,About once a day
+Female,16,Twitter,Several times a day
+Male,14,Facebook,About once a day
+Male,13,Facebook,3 to 5 days a week
+Male,12,Facebook,3 to 5 days a week
+Male,13,Facebook,1 to 2 days a week
+Female,16,Facebook,Several times a day
+Female,16,Facebook,3 to 5 days a week
+Female,17,Tumblr,Less often
+Male,12,Facebook,About once a day
+Female,14,Facebook,Several times a day
+Male,16,Facebook,About once a day
+Male,16,Facebook,3 to 5 days a week
+Female,13,Twitter,Several times a day
+Female,13,Facebook,About once a day
+Female,12,Facebook,About once a day
+Female,13,Facebook,Every few weeks
+Male,14,Facebook,1 to 2 days a week
+Male,15,Twitter,Several times a day
+Male,16,Facebook,About once a day
+Male,17,Facebook,Several times a day
+Female,16,Facebook,Several times a day
+Male,14,Other,About once a day
+Male,16,Facebook,1 to 2 days a week
+Female,13,Facebook,About once a day
+Male,15,Facebook,Every few weeks
+Female,15,Facebook,1 to 2 days a week
+Male,13,Facebook,Several times a day
+Male,15,Facebook,Several times a day
+Female,16,Facebook,About once a day
+Male,15,Twitter,Several times a day
+Female,16,Facebook,Several times a day
+Male,13,Facebook,About once a day
