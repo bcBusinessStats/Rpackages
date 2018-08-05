@@ -80,7 +80,6 @@
 #'   \item{\code{bty_m1lower}}{integer Beauty rating of professor from lower level male: (1) lowest - (10) highest.}
 #'   \item{\code{bty_m1upper}}{integer Beauty rating of professor from upper level male: (1) lowest - (10) highest.}
 #'   \item{\code{bty_m2upper}}{integer Beauty rating of professor from second upper level male: (1) lowest - (10) highest.}
-#'   \item{\code{bty_avg}}{double Average beauty rating of professor.}
 #'   \item{\code{pic_outfit}}{integer Outfit of professor in picture: not formal, formal.}
 #'   \item{\code{pic_color}}{integer Color of professor’s picture: color, black & white.} 
 #'}
