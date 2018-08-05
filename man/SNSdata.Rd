@@ -3,7 +3,7 @@
 \docType{data}
 \name{SNSdata}
 \alias{SNSdata}
-\title{Teen Primary Social Network}
+\title{snsdata}
 \format{A data frame with 609 rows and 4 variables:
 \describe{
   \item{\code{gender}}{character gender (male or female)}
