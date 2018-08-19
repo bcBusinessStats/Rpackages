@@ -85,3 +85,12 @@
 #'}
 #' @source \url{https://www.openintro.org/stat/data/evals.php}
 "evals"
+
+#' @title moviedata
+#' @description made-up data for HW about movie attendance
+#' @format A data frame with 487 rows and 2 variables:
+#' \describe{
+#'   \item{\code{AgeGroup}}{character: age group of viewer}
+#'   \item{\code{SeenBefore}}{character: had viewer seen before?} 
+#'}
+"moviedata"
