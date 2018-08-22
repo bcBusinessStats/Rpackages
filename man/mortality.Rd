@@ -9,6 +9,9 @@
   \item{\code{ID}}{integer policy holder ID}
   \item{\code{Claimed}}{integer 1 if made claim on term life insturance; 0 otherwise}
 }}
+\source{
+{Made up by Stephanie Jernigan, June 2018}
+}
 \usage{
 mortality
 }

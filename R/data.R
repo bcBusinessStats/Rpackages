@@ -22,7 +22,7 @@
 #'   \item{\code{ID}}{integer policy holder ID}
 #'   \item{\code{Claimed}}{integer 1 if made claim on term life insturance; 0 otherwise}
 #'}
-#' @source Made up by Stephanie Jernigan, June 2018}
+#' @source {Made up by Stephanie Jernigan, June 2018}
 "mortality"
 
 #' @title mlb11
@@ -267,3 +267,16 @@
 #'}
 #' @source \url{https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/}
 "atus_summary"
+
+#' @title popcorndata
+#' @description Popcorn sales by Cub Scouts in 2017 and 2018
+#' @format A data frame with 134 rows and 5 variables:
+#' \describe{
+#'   \item{\code{ID}}{character:  identifier}
+#'   \item{\code{rank}}{character:  scout rank}
+#'   \item{\code{grade}}{integer:  scout's grade in school}
+#'   \item{\code{sale}}{double:  amount of popcorn sold by scout}
+#'   \item{\code{year}}{integer: year of sale} 
+#'}
+#' @source {data collected from Cub Scout Pack 658 by Linda Boardman Liu}
+"popcorndata"
