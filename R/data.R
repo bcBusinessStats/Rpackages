@@ -94,3 +94,176 @@
 #'   \item{\code{SeenBefore}}{character: had viewer seen before?} 
 #'}
 "moviedata"
+
+#' @title DATASET_TITLE
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 400 rows and 11 variables:
+#' \describe{
+#'   \item{\code{ID}}{integer: customer ID}
+#'   \item{\code{Income}}{double:  Income, in $1000s}
+#'   \item{\code{Limit}}{integer Credit limit, in $.}
+#'   \item{\code{Rating}}{integer:  Credit rating score from 0 to 1000 possible.}
+#'   \item{\code{Cards}}{integer:  total number of credit cards customer has}
+#'   \item{\code{Age}}{integer:  Customer age in years}
+#'   \item{\code{Education}}{integer:  years of education (12 = high school)}
+#'   \item{\code{Gender}}{character:  Customer gender}
+#'   \item{\code{Student}}{character:  1 if student; 0 otherwise}
+#'   \item{\code{Married}}{character:  1 if married; 0 otherwise}
+#'   \item{\code{Balance}}{integer:  Average monthly balance, in $} 
+#'}
+#' @source {adjusted from a sample of 'credit' dataset in 'ISLR' package.}
+"creditcards"
+
+#' @title decindep
+#' @description words in the Declaration of Independence
+#' @format A data frame with 1323 rows and 3 variables:
+#' \describe{
+#'   \item{\code{Word}}{character:  a word in the Declaration of Independence}
+#'   \item{\code{Length}}{integer:  number of letters in the word}
+#'   \item{\code{Has_an_e}}{integer:  1 if the word contains an e; 0 otherwise} 
+#'}
+#' @source {uncredited version of the Declaration of Independence, edited to remove dates, signatures, etc.}
+"decindep"
+
+#' @title distfromhome
+#' @description Simulated data set with distance from home (miles) of students from 4 business programs
+#' @format A data frame with 375 rows and 2 variables:
+#' \describe{
+#'   \item{\code{School}}{character:  School identifier}
+#'   \item{\code{Distance}}{double:  distance from home in miles} 
+#'}
+#' @source {made up for an in-class exercise.  BC data comes from a class survey.}
+"distfromhome"
+
+#' @title distfromhome_bc
+#' @description dataset from previous class about distance students travel to attend BC.
+#' @format A data frame with 97 rows and 2 variables:
+#' \describe{
+#'   \item{\code{School}}{character:  school identifier (only BC)}
+#'   \item{\code{Distance}}{double:  distance from home in miles} 
+#'}
+#' @source {from previous class survey}
+"distfromhome_bc"
+
+#' @title foodads
+#' @description simulated data about amount of Goldfish crackers eaten by two different groups of children:  those who watched a TV program with food ads and those who watched the TV program with non-food ads.
+#' @format A data frame with 118 rows and 2 variables:
+#' \describe{
+#'   \item{\code{AdType}}{character:  type of ad child watched, either food or nonfood}
+#'   \item{\code{GramsEaten}}{double:  grams of Goldfish crackers child ate while watching} 
+#'}
+#' @source \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2743554/}
+"foodads"
+
+#' @title gettysburg
+#' @description The words in the Gettysburg address
+#' @format A data frame with 268 rows and 3 variables:
+#' \describe{
+#'   \item{\code{words}}{character:  the words in the Gettysburg Address}
+#'   \item{\code{length}}{integer: number of letters in the word}
+#'   \item{\code{has_an_e}}{integer: 1 if contains an e; 0 otherwise} 
+#'}
+#' @source {parsed Gettysburg Address}
+"gettysburg"
+
+#' @title marylou
+#' @description age group and purchase amount for 50 customers of a coffee chain
+#' @format A data frame with 50 rows and 2 variables:
+#' \describe{
+#'   \item{\code{CustomerType}}{character:  adult or teenager}
+#'   \item{\code{Spend}}{double amount of purchase when surveyed, in $} 
+#'}
+#' @source \url{adapted from exercise in Essentials of Business Statistics, 1st Edition, Sanjiv Jaggia and Alison Kelly , Copyright: 2014}
+"marylou"
+
+#' @title shopgender
+#' @description simulated data to match USA Today poll about gender and shopping
+#' @format A data frame with 1085 rows and 2 variables:
+#' \describe{
+#'   \item{\code{Gender}}{character Male or Female}
+#'   \item{\code{LikesToShop}}{character yes or no} 
+#'}
+#' @source \url{adapted from exercise in Business Statistics - A First Course, 6th Edition, Levine, Krehbiel, and Berenson, 2012}
+"shopgender"
+
+#' @title vendor
+#' @description appraisals for electronic items from two different appraisal companies (vendors)
+#' @format A data frame with 453 rows and 3 variables:
+#' \describe{
+#'   \item{\code{Item}}{character ID of electronic item being appraised}
+#'   \item{\code{VendorA}}{double appraisal value from Vendor A}
+#'   \item{\code{VendorB}}{double appraisal value from Vendor B} 
+#'}
+#' @source {donated by former student of Linda Boardman Liu}
+"vendor"
+
+#' @title accts_recv
+#' @description simulated data from IBM Watson about "Understand "the factors of successful collection efforts. You can Predict which customers will pay fastest and recover more money and improve collections efficiency."
+#' @format A data frame with 2466 rows and 12 variables:
+#' \describe{
+#'   \item{\code{countryCode}}{integer:  country identifier}
+#'   \item{\code{customerID}}{character:  customer identifier}
+#'   \item{\code{PaperlessDate}}{character:  date the company began paperless billing}
+#'   \item{\code{invoiceNumber}}{character:  invoice identifier}
+#'   \item{\code{InvoiceDate}}{character:  date of invoice}
+#'   \item{\code{DueDate}}{character:  day payment due}
+#'   \item{\code{InvoiceAmount}}{double:  amount of invoice, in $}
+#'   \item{\code{Disputed}}{character:  Yes if invoice was disputed; No otherwise.}
+#'   \item{\code{SettledDate}}{character:  Date that invoice was paid or settled.}
+#'   \item{\code{PaperlessBill}}{character:  Paper if a hard copy of the invoice was sent; Electronic otherwise}
+#'   \item{\code{DaysToSettle}}{integer:  number of days required to settle the invoice}
+#'   \item{\code{DaysLate}}{integer:  number of days late the invoice was} 
+#'}
+#' @source \url{https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/}
+"accts_recv"
+
+#' @title bikeshare
+#' @description hourly information about a public bike share program in Washington, D.C.
+#' @format A data frame with 17379 rows and 12 variables:
+#' \describe{
+#'   \item{\code{Instant}}{integer:  time slice identifier}
+#'   \item{\code{Riders}}{integer:  number of riders during at this time}
+#'   \item{\code{Season}}{integer:  1 = winter, 2 = spring, 3 = summer, 4 = fall}
+#'   \item{\code{Month}}{integer:  month}
+#'   \item{\code{Hour}}{integer:  hour}
+#'   \item{\code{Holiday}}{integer:  1 if holiday; 0 otherwise}
+#'   \item{\code{Weekday}}{integer:  0 through 6 representing the day of the week, Monday to Sunday}
+#'   \item{\code{Workday}}{integer:  1 if workday; 0 otherwise}
+#'   \item{\code{Weather}}{integer:  general category of weather.  Exact definition unknown.}
+#'   \item{\code{Temperature}}{integer:  temperature in degrees F}
+#'   \item{\code{Humidity}}{double:  relative humidity measure}
+#'   \item{\code{Wind}}{double:  an unknown measure of wind speed} 
+#'}
+#' @source \url{https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/}
+"bikeshare"
+
+#' @title atus_summary
+#' @description Summary of results of US gov't American Time Use Survey
+#' @format A data frame with 130150 rows and 23 variables:
+#' \describe{
+#'   \item{\code{Education Level}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{Age}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Age Range}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{Employment Status}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{Gender}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{Children}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Weekly Earnings}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Year}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Weekly Hours Worked}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Sleeping}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Grooming}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Housework}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Food & Drink Prep}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Caring for Children}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Playing with Children}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Job Searching}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Shopping}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Eating and Drinking}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Socializing & Relaxing}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Television}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Golfing}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Running}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Volunteering}}{integer COLUMN_DESCRIPTION} 
+#'}
+#' @source \url{https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/}
+"atus_summary"
