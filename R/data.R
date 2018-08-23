@@ -305,3 +305,12 @@
 #'   \item{\code{edlevel}}{character:  highest education level attained} 
 #'}
 "EdLevel"
+
+#' @title ConcChoice
+#' @description Business Statistics students' choices of concentrations if they had to decide today.
+#' @format A data frame with 49 rows and 1 variables:
+#' \describe{
+#'   \item{\code{conc_choice}}{character:  The name of the concentration they chose.} 
+#'}
+#' @source {past survey of Business Statistics students}
+"ConcChoice"
