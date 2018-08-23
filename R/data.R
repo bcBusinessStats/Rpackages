@@ -280,3 +280,12 @@
 #'}
 #' @source {data collected from Cub Scout Pack 658 by Linda Boardman Liu}
 "popcorndata"
+
+#' @title AttendGrad
+#' @description data from past class survey about whether or not students plan to attend grad school
+#' @format A data frame with 97 rows and 1 variables:
+#' \describe{
+#'   \item{\code{attend_grad}}{character Yes, No, or Not sure} 
+#'}
+#' @source {past survey in Business Statistics}
+"AttendGrad"
