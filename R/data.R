@@ -289,3 +289,19 @@
 #'}
 #' @source {past survey in Business Statistics}
 "AttendGrad"
+
+#' @title FilmAges
+#' @description made-up data set for HW Ch. 4
+#' @format A data frame with 468 rows and 1 variables:
+#' \describe{
+#'   \item{\code{ages}}{character:  age groups who attended movie} 
+#'}
+"FilmAges"
+
+#' @title EdLevel
+#' @description made-up data set for HW Ch. 4
+#' @format A data frame with 510 rows and 1 variables:
+#' \describe{
+#'   \item{\code{edlevel}}{character:  highest education level attained} 
+#'}
+"EdLevel"
