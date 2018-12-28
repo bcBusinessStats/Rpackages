@@ -95,8 +95,8 @@
 #'}
 "moviedata"
 
-#' @title DATASET_TITLE
-#' @description DATASET_DESCRIPTION
+#' @title creditcards
+#' @description Credit card customer data
 #' @format A data frame with 400 rows and 11 variables:
 #' \describe{
 #'   \item{\code{ID}}{integer: customer ID}
@@ -268,7 +268,7 @@
 #' @source \url{https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/}
 "atus_summary"
 
-#' @title popcorndata
+#' @title popcor_ndata
 #' @description Popcorn sales by Cub Scouts in 2017 and 2018
 #' @format A data frame with 134 rows and 5 variables:
 #' \describe{
@@ -279,7 +279,7 @@
 #'   \item{\code{year}}{integer: year of sale} 
 #'}
 #' @source {data collected from Cub Scout Pack 658 by Linda Boardman Liu}
-"popcorndata"
+"popcorn_data"
 
 #' @title AttendGrad
 #' @description data from past class survey about whether or not students plan to attend grad school
@@ -315,3 +315,48 @@
 #' @source {past survey of Business Statistics students}
 "ConcChoice"
 
+#' @title bluebook
+#' @description sample of used car attributes and sales prices
+#' @format A data frame with 804 rows and 3 variables:
+#' \describe{
+#'   \item{\code{Price}}{double:  sales price}
+#'   \item{\code{Mileage}}{double: miles on odometer at time of sale}
+#'   \item{\code{Make}}{character:  car manufacturer} 
+#'}
+#' @source \url{Jaggia and Kelly textbook}
+"bluebook"
+
+#' @title burgerking
+#' @description nutrition information for Burger King menu items
+#' @format A data frame with 32 rows and 10 variables:
+#' \describe{
+#'   \item{\code{item}}{character:  menu item name}
+#'   \item{\code{Serving}}{double:  serving size in grams}
+#'   \item{\code{Calories}}{double:  number of calories per serving}
+#'   \item{\code{Carbs}}{double:  grams of carbohydrates per serving}
+#'   \item{\code{Meat}}{double:  1 if contains meat; 0 otherwise}
+#'   \item{\code{Total Fat}}{double:  grams of fat per serving}
+#'   \item{\code{Cholesterol}}{double:  milligrams of cholesterol per serving}
+#'   \item{\code{Sodium}}{double:  milligrams of sodium per serving}
+#'   \item{\code{Sugars}}{double:  grams of sugar per serving}
+#'   \item{\code{Protein}}{double:  grams of protein per serving} 
+#'}
+#' @source \url{Sharpe, DeVeaux, Velleman electronic chapters}
+"burgerking"
+
+#' @title mpgdata
+#' @description auto fuel economy and other data
+#' @format A data frame with 84 rows and 9 variables:
+#' \describe{
+#'   \item{\code{Model}}{character:  model of car}
+#'   \item{\code{Eng Size}}{double:  liters}
+#'   \item{\code{Cylinders}}{double:  number of engine cylinders}
+#'   \item{\code{MSRP}}{double:  suggested retail price, in USD}
+#'   \item{\code{City Mpg}}{double:  city miles per gallon}
+#'   \item{\code{Highway Mpg}}{double:  highway miles per gallon}
+#'   \item{\code{Weight}}{double:  weight in pounds}
+#'   \item{\code{Type}}{character:  car class}
+#'   \item{\code{Country}}{character:  country of manufacturer} 
+#'}
+#' @source \url{Sharpe, DeVeaux, Velleman electronic chapters}
+"mpgdata"
