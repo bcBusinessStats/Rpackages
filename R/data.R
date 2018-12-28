@@ -114,16 +114,6 @@
 #' @source {adjusted from a sample of 'credit' dataset in 'ISLR' package.}
 "creditcards"
 
-#' @title decindep
-#' @description words in the Declaration of Independence
-#' @format A data frame with 1323 rows and 3 variables:
-#' \describe{
-#'   \item{\code{Word}}{character:  a word in the Declaration of Independence}
-#'   \item{\code{Length}}{integer:  number of letters in the word}
-#'   \item{\code{Has_an_e}}{integer:  1 if the word contains an e; 0 otherwise} 
-#'}
-#' @source {uncredited version of the Declaration of Independence, edited to remove dates, signatures, etc.}
-"decindep"
 
 #' @title distfromhome
 #' @description Simulated data set with distance from home (miles) of students from 4 business programs
