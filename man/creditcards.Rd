@@ -3,7 +3,7 @@
 \docType{data}
 \name{creditcards}
 \alias{creditcards}
-\title{DATASET_TITLE}
+\title{creditcards}
 \format{A data frame with 400 rows and 11 variables:
 \describe{
   \item{\code{ID}}{integer: customer ID}
@@ -25,6 +25,6 @@
 creditcards
 }
 \description{
-DATASET_DESCRIPTION
+Credit card customer data
 }
 \keyword{datasets}
