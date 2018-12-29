@@ -101,7 +101,7 @@
 #' \describe{
 #'   \item{\code{ID}}{integer: customer ID}
 #'   \item{\code{Income}}{double:  Income, in $1000s}
-#'   \item{\code{Limit}}{integer Credit limit, in $.}
+#'   \item{\code{Limit}}{integer: Credit limit, in $}
 #'   \item{\code{Rating}}{integer:  Credit rating score from 0 to 1000 possible.}
 #'   \item{\code{Cards}}{integer:  total number of credit cards customer has}
 #'   \item{\code{Age}}{integer:  Customer age in years}
@@ -362,3 +362,130 @@
 #' @source \url{http://somewhere.important.com/}
 "decindep"
 
+
+#' @title PopcornData
+#' @description Popcorn sales by Cub Scouts in 2017 and 2018
+#' @format A data frame with 134 rows and 5 variables:
+#' \describe{
+#'   \item{\code{id}}{character:  identifier}
+#'   \item{\code{rank}}{character:  scout rank}
+#'   \item{\code{grade}}{integer:  scout's grade in school}
+#'   \item{\code{sale}}{double:  value of popcorn sold by scout, in dollars}
+#'   \item{\code{year}}{integer: year of sale} 
+#'}
+#' @source {data collected from Cub Scout Pack 658 by Linda Boardman Liu}
+"PopcornData"
+
+#' @title DATASET_TITLE
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 100 rows and 6 variables:
+#' \describe{
+#'   \item{\code{location}}{character restaurant location:  Suburban or City}
+#'   \item{\code{food}}{integer:  food rating, out of 30}
+#'   \item{\code{decor}}{integer:  decor rating, out of 30}
+#'   \item{\code{service}}{integer:  service rating, out of 30}
+#'   \item{\code{totalrating}}{integer:  sum of food, decor, and service ratings}
+#'   \item{\code{avgprice}}{integer:  average price of a meal at the restaurant} 
+#'}
+#' @source \url{http://somewhere.important.com/}
+"ZagatData"
+
+#' @title AirlineData
+#' @description sample of flights from two airlines, Jet Blue and Southwest
+#' @format A data frame with 50 rows and 4 variables:
+#' \describe{
+#'   \item{\code{airline}}{character:  airline}
+#'   \item{\code{status}}{character:  was flight delayed or not}
+#'   \item{\code{minutes}}{integer:  minutes of delay}
+#'}
+#' @source \url{http://somewhere.important.com/}
+"AirlineData"
+
+#' @title CoffeeTypeData
+#' @description classification of a random sample of 50 customers from a coffee shop
+#' @format A data frame with 50 rows and 1 variables:
+#' \describe{
+#'   \item{\code{type}}{character:  was customer an adult woman or a teen girl} 
+#'}
+#' @source \url{http://somewhere.important.com/}
+"CoffeeTypeData"
+
+#' @title CollegeRet
+#' @description A sample of students and whether or not they are returning to school
+#' @format A data frame with 603 rows and 4 variables:
+#' \describe{
+#'   \item{\code{currentyear}}{character:  class of student}
+#'   \item{\code{status}}{character:  are they returning to school or not}
+#'}
+#' @source \url{http://somewhere.important.com/}
+"CollegeRet"
+
+#' @title CreditCardData
+#' @description information about 401 credit card customers.
+#' @format A data frame with 401 rows and 11 variables:
+#' \describe{
+#'   \item{\code{id}}{integer: customer ID}
+#'   \item{\code{income}}{double:  Income, in $1000s}
+#'   \item{\code{limit}}{integer: Credit limit, in $}
+#'   \item{\code{rating}}{integer:  Credit rating score from 0 to 1000 possible}
+#'   \item{\code{cards}}{integer:  total number of credit cards customer has}
+#'   \item{\code{age}}{integer:  Customer age in years}
+#'   \item{\code{education}}{integer:  years of education (12 = high school)}
+#'   \item{\code{gender}}{character:  Customer gender}
+#'   \item{\code{student}}{character:  1 if student; 0 otherwise}
+#'   \item{\code{married}}{character:  1 if married; 0 otherwise}
+#'   \item{\code{balance}}{integer:  Average monthly balance, in $} 
+#'}
+#' @source {adjusted from a sample of 'credit' dataset in 'ISLR' package.}
+"CreditCardData"
+
+#' @title EmailAccessData
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 15 rows and 2 variables:
+#' \describe{
+#'   \item{\code{emailv1}}{double:  time}
+#'   \item{\code{emailv2}}{double:  time} 
+#'}
+#' @source \url{http://somewhere.important.com/}
+"EmailAccessData"
+
+#' @title Rectangles Data
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 100 rows and 3 variables:
+#' \describe{
+#'   \item{\code{Number}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{Actual Sizes}}{integer COLUMN_DESCRIPTION}
+#'   \item{\code{OddEven}}{character COLUMN_DESCRIPTION} 
+#'}
+#' @source \url{http://somewhere.important.com/}
+"RectanglesData"
+
+#' @title UltraGreenData
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 25 rows and 2 variables:
+#' \describe{
+#'   \item{\code{carID}}{integer:  ID}
+#'   \item{\code{mpg}}{integer:  miles per gallon} 
+#'}
+#' @source \url{http://somewhere.important.com/}
+"UltraGreenData"
+
+#' @title DATASET_TITLE
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 454 rows and 3 variables:
+#' \describe{
+#'   \item{\code{item}}{character:  item ID}
+#'   \item{\code{vendorA}}{character:  value appraised by Vendor A}
+#'   \item{\code{vendorB}}{character:  value appraised by Vendor B} 
+#'}
+#' @source \url{http://somewhere.important.com/}
+"VendorSelectionData"
+
+#' @title CoffeeSaleData
+#' @description per-person purchase amount of a sample of 50 coffee shop customers
+#' @format A data frame with 50 rows and 1 variables:
+#' \describe{
+#'   \item{\code{sales}}{double:  purchase amount, in dollars} 
+#'}
+#' @source \url{http://somewhere.important.com/}
+"CoffeeSaleData"

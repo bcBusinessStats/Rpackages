@@ -8,7 +8,7 @@
 \describe{
   \item{\code{ID}}{integer: customer ID}
   \item{\code{Income}}{double:  Income, in $1000s}
-  \item{\code{Limit}}{integer Credit limit, in $.}
+  \item{\code{Limit}}{integer: Credit limit, in $}
   \item{\code{Rating}}{integer:  Credit rating score from 0 to 1000 possible.}
   \item{\code{Cards}}{integer:  total number of credit cards customer has}
   \item{\code{Age}}{integer:  Customer age in years}
