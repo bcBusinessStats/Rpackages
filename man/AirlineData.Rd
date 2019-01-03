@@ -6,17 +6,17 @@
 \title{AirlineData}
 \format{A data frame with 50 rows and 4 variables:
 \describe{
-  \item{\code{airline}}{character:  airline}
-  \item{\code{status}}{character:  was flight delayed or not}
-  \item{\code{minutes}}{integer:  minutes of delay}
+  \item{\code{airline}}{character: airline}
+  \item{\code{status}}{character: delay status}
+  \item{\code{minutes}}{integer: actual number of minutes deviation from schedule, negative indicates minutes early, positive indicates minutes late)}
 }}
 \source{
-\url{http://somewhere.important.com/}
+{}
 }
 \usage{
 AirlineData
 }
 \description{
-sample of flights from two airlines, Jet Blue and Southwest
+On-time performance of airline arrivals
 }
 \keyword{datasets}

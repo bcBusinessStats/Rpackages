@@ -3,23 +3,23 @@
 \docType{data}
 \name{ZagatData}
 \alias{ZagatData}
-\title{DATASET_TITLE}
+\title{ZagatData}
 \format{A data frame with 100 rows and 6 variables:
 \describe{
-  \item{\code{location}}{character restaurant location:  Suburban or City}
-  \item{\code{food}}{integer:  food rating, out of 30}
-  \item{\code{decor}}{integer:  decor rating, out of 30}
-  \item{\code{service}}{integer:  service rating, out of 30}
-  \item{\code{totalrating}}{integer:  sum of food, decor, and service ratings}
-  \item{\code{avgprice}}{integer:  average price of a meal at the restaurant} 
+  \item{\code{location}}{character: restaurant location, suburban or city}
+  \item{\code{food}}{integer: food rating on 30 point scale}
+  \item{\code{decor}}{integer: decor rating on 30 point scale}
+  \item{\code{service}}{integer: service rating on 30 point scale}
+  \item{\code{totalrating}}{integer: sum of food, decor, and service ratings}
+  \item{\code{avgprice}}{integer: average menu price per person} 
 }}
 \source{
-\url{http://somewhere.important.com/}
+{from Zagat}
 }
 \usage{
 ZagatData
 }
 \description{
-DATASET_DESCRIPTION
+Zagat survey ratings with average menu prices and locations
 }
 \keyword{datasets}

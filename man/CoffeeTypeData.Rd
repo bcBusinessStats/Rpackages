@@ -6,15 +6,15 @@
 \title{CoffeeTypeData}
 \format{A data frame with 50 rows and 1 variables:
 \describe{
-  \item{\code{type}}{character:  was customer an adult woman or a teen girl} 
+  \item{\code{type}}{character: purchaser type} 
 }}
 \source{
-\url{http://somewhere.important.com/}
+{}
 }
 \usage{
 CoffeeTypeData
 }
 \description{
-classification of a random sample of 50 customers from a coffee shop
+Customer type of coffee purchases
 }
 \keyword{datasets}

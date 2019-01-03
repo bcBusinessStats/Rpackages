@@ -6,15 +6,15 @@
 \title{CoffeeSaleData}
 \format{A data frame with 50 rows and 1 variables:
 \describe{
-  \item{\code{sales}}{double:  purchase amount, in dollars} 
+  \item{\code{sales}}{double: customer level sales in US dollars} 
 }}
 \source{
-\url{http://somewhere.important.com/}
+{}
 }
 \usage{
 CoffeeSaleData
 }
 \description{
-per-person purchase amount of a sample of 50 coffee shop customers
+Sample of individual customer coffee sales
 }
 \keyword{datasets}

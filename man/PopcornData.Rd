@@ -9,7 +9,7 @@
   \item{\code{id}}{character:  identifier}
   \item{\code{rank}}{character:  scout rank}
   \item{\code{grade}}{integer:  scout's grade in school}
-  \item{\code{sale}}{double:  value of popcorn sold by scout, in dollars}
+  \item{\code{sale}}{double:  dollar amount of popcorn sold by scout}
   \item{\code{year}}{integer: year of sale} 
 }}
 \source{

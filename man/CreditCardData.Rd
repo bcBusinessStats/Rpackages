@@ -6,25 +6,25 @@
 \title{CreditCardData}
 \format{A data frame with 401 rows and 11 variables:
 \describe{
-  \item{\code{id}}{integer: customer ID}
-  \item{\code{income}}{double:  Income, in $1000s}
-  \item{\code{limit}}{integer: Credit limit, in $}
-  \item{\code{rating}}{integer:  Credit rating score from 0 to 1000 possible}
-  \item{\code{cards}}{integer:  total number of credit cards customer has}
-  \item{\code{age}}{integer:  Customer age in years}
-  \item{\code{education}}{integer:  years of education (12 = high school)}
-  \item{\code{gender}}{character:  Customer gender}
-  \item{\code{student}}{character:  1 if student; 0 otherwise}
-  \item{\code{married}}{character:  1 if married; 0 otherwise}
-  \item{\code{balance}}{integer:  Average monthly balance, in $} 
+  \item{\code{id}}{integer: identifier}
+  \item{\code{income}}{double: in thousands of US dollars}
+  \item{\code{limit}}{integer: credit limit in US dollars}
+  \item{\code{rating}}{integer: internal bank credit rating, a number between 300 and 850}
+  \item{\code{cards}}{integer: number of credit cards}
+  \item{\code{age}}{integer: in years}
+  \item{\code{education}}{integer: years of education}
+  \item{\code{gender}}{character: male or female}
+  \item{\code{student}}{character: customer student indicator, yes or no}
+  \item{\code{married}}{character: customer marital status indicator, yes or no}
+  \item{\code{balance}}{integer: average credit card debt in US dollars} 
 }}
 \source{
-{adjusted from a sample of 'credit' dataset in 'ISLR' package.}
+{}
 }
 \usage{
 CreditCardData
 }
 \description{
-information about 401 credit card customers.
+Data set of credit card customers
 }
 \keyword{datasets}

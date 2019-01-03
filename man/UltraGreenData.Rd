@@ -6,16 +6,16 @@
 \title{UltraGreenData}
 \format{A data frame with 25 rows and 2 variables:
 \describe{
-  \item{\code{carID}}{integer:  ID}
-  \item{\code{mpg}}{integer:  miles per gallon} 
+  \item{\code{carID}}{integer: identifier}
+  \item{\code{mpg}}{integer: average miles per gallon} 
 }}
 \source{
-\url{http://somewhere.important.com/}
+{}
 }
 \usage{
 UltraGreenData
 }
 \description{
-DATASET_DESCRIPTION
+Ultra green car mileage per gallon
 }
 \keyword{datasets}

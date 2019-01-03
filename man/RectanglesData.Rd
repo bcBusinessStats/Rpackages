@@ -3,20 +3,20 @@
 \docType{data}
 \name{RectanglesData}
 \alias{RectanglesData}
-\title{Rectangles Data}
+\title{RectanglesData}
 \format{A data frame with 100 rows and 3 variables:
 \describe{
-  \item{\code{Number}}{integer COLUMN_DESCRIPTION}
-  \item{\code{Actual Sizes}}{integer COLUMN_DESCRIPTION}
-  \item{\code{OddEven}}{character COLUMN_DESCRIPTION} 
+  \item{\code{Number}}{integer: identifier}
+  \item{\code{Actual Sizes}}{integer: number of rectangles}
+  \item{\code{OddEven}}{character: categorical indicating odd or even number of rectangles} 
 }}
 \source{
-\url{http://somewhere.important.com/}
+{}
 }
 \usage{
 RectanglesData
 }
 \description{
-DATASET_DESCRIPTION
+Actual sizes of rectangles exercise
 }
 \keyword{datasets}

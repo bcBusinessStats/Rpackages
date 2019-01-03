@@ -3,20 +3,20 @@
 \docType{data}
 \name{VendorSelectionData}
 \alias{VendorSelectionData}
-\title{DATASET_TITLE}
+\title{VendorSelectionData}
 \format{A data frame with 454 rows and 3 variables:
 \describe{
-  \item{\code{item}}{character:  item ID}
-  \item{\code{vendorA}}{character:  value appraised by Vendor A}
-  \item{\code{vendorB}}{character:  value appraised by Vendor B} 
+  \item{\code{item}}{character: identifier}
+  \item{\code{vendorA}}{double: Vendor A replacement value quote}
+  \item{\code{vendorB}}{double: Vendor B replacement value quote} 
 }}
 \source{
-\url{http://somewhere.important.com/}
+{collected from insurance company}
 }
 \usage{
 VendorSelectionData
 }
 \description{
-DATASET_DESCRIPTION
+insurance replacement values for a collection of consumer electronics
 }
 \keyword{datasets}
