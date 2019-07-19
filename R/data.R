@@ -513,3 +513,177 @@
 #'}
 #' @source \url{http://www.census.gov/ftp/pub/DES/www/welcome.html}
 "adultdata"
+
+#' @title restloc
+#' @description demographic
+#' @format A data frame with 33 rows and 5 variables:
+#' \describe{
+#'   \item{\code{AnnSales}}{double: annual sales, in $1000s}
+#'   \item{\code{RestNear}}{double: number of similar restaurants within a half-mile radius}
+#'   \item{\code{PopulationK}}{double: COLUMN_DESCRIPTION}
+#'   \item{\code{MedIncome}}{double: population in 1000s}
+#'   \item{\code{InMall}}{double:  1 if restaurant is in a mall; 0 otherwise} 
+#'}
+#' @source \url{}
+"restloc"
+
+#' @title cardata
+#' @description data about used cars from the Kelley Blue book
+#' @format A data frame with 804 rows and 3 variables:
+#' \describe{
+#'   \item{\code{Price}}{double: price of used car in US$}
+#'   \item{\code{Mileage}}{double:  miles on odometer at time of sale}
+#'   \item{\code{Make}}{character:  brand of car} 
+#'}
+#' @source {}
+"cardata"
+
+#' @title bk
+#' @description nutrition items for foods at Burger King
+#' @format A data frame with 32 rows and 9 variables:
+#' \describe{
+#'   \item{\code{serving}}{double:  serving size, in grams}
+#'   \item{\code{calories}}{double:  calories per serving}
+#'   \item{\code{carbs}}{double:  grams of carbohydrates}
+#'   \item{\code{meat}}{double:  1 if item contains meat; 0 otherwise}
+#'   \item{\code{total_fat}}{double:  grams of fat per serving}
+#'   \item{\code{cholesterol}}{double:  milligrams of cholesterol per serving}
+#'   \item{\code{sodium}}{double milligrams of sodium per serving}
+#'   \item{\code{sugars}}{double:  grams of sugar per serving}
+#'   \item{\code{protein}}{double:  grams of protein per serving} 
+#'}
+#' @source {Sharpe, De Veaux, Velleman:  Business Statistics, A First Course, 2e, online chapters}
+"bk"
+
+
+#' @title mileage
+#' @description fuel efficiency information for many types of cars
+#' @format A data frame with 84 rows and 9 variables:
+#' \describe{
+#'   \item{\code{model}}{character:  car model}
+#'   \item{\code{eng_size}}{double:  engine size, in liters}
+#'   \item{\code{cylinders}}{double:  number of cylinders in engine}
+#'   \item{\code{msrp}}{double:  suggested retail price of car, USD}
+#'   \item{\code{city_mpg}}{double:  average miles per gallon, city driving}
+#'   \item{\code{highway_mpg}}{double: average miles per gallon, highway driving}
+#'   \item{\code{weight}}{double:  weight, pounds}
+#'   \item{\code{type}}{character:  type of car}
+#'   \item{\code{country}}{character:  country where manufacturer is based} 
+#'}
+#' @source {Sharpe, De Veaux, Velleman:  Business Statistics, A First Course, 2e, online chapters}
+"mileage"
+
+#' @title complaints
+#' @description complaints recorded about customer service agents before training and after training
+#' @format A data frame with 31 rows and 2 variables:
+#' \describe{
+#'   \item{\code{complaints_before}}{double:  average complaints per week before training}
+#'   \item{\code{complaints_after}}{double:  average complaints per week after training} 
+#'}
+#' @source {}
+"complaints"
+
+#' @title PearsonTitanic
+#' @description Titanic survival data set from Pearson
+#' @format A data frame with 2201 rows and 4 variables:
+#' \describe{
+#'   \item{\code{class}}{character:  fare class}
+#'   \item{\code{adult_child}}{character:  age category recorded as Adult or Child}
+#'   \item{\code{male_female}}{character:  gender recorded as Male or Female}
+#'   \item{\code{survival}}{character:  survival recorded as Alive or Dead} 
+#'}
+#' @source {Pearson Publishing}
+"PearsonTitanic"
+
+
+#' @title PearsonDealerships
+#' @description information about car dealerships from Pearson
+#' @format A data frame with 1000 rows and 7 variables:
+#' \describe{
+#'   \item{\code{dealership_number}}{double:  dealership ID}
+#'   \item{\code{state}}{character:  state dealership is located in}
+#'   \item{\code{median_salary}}{double:  median salary of employees in $}
+#'   \item{\code{annual_sales}}{double:  annual sales of dealership, in $}
+#'   \item{\code{number_of_vehicles_sold}}{double:  number of vehicles sold in a period}
+#'   \item{\code{square_feet}}{double:  square feet of dealership}
+#'   \item{\code{quality_award_winner}}{character:  did they win a quality award, y or n} 
+#'}
+#' @source {Pearson Publishing}
+"PearsonDealerships"
+
+#' @title Pearson Fuel Efficiency
+#' @description Fuel efficiency data for a number of cars
+#' @format A data frame with 84 rows and 9 variables:
+#' \describe{
+#'   \item{\code{model}}{character:  car model}
+#'   \item{\code{eng_size}}{double:  engine size, in liters}
+#'   \item{\code{cylinders}}{double:  number of cylinders in engine}
+#'   \item{\code{msrp}}{double:  suggested retail price of car, USD}
+#'   \item{\code{city_mpg}}{double:  average miles per gallon, city driving}
+#'   \item{\code{highway_mpg}}{double: average miles per gallon, highway driving}
+#'   \item{\code{weight}}{double:  weight, pounds}
+#'   \item{\code{type}}{character:  type of car}
+#'   \item{\code{country}}{character:  country where manufacturer is based} 
+#'}
+#' @source {Pearson Publishing}
+"PearsonFuelEff"
+
+#' @title PearsonIQ
+#' @description IQ and demographic data for 500 respondents
+#' @format A data frame with 500 rows and 7 variables:
+#' \describe{
+#'   \item{\code{volunteer_number}}{double:  ID of respondent}
+#'   \item{\code{gender}}{character:  gender}
+#'   \item{\code{iq}}{double:  IQ score}
+#'   \item{\code{annual_income}}{double:  annual income, in dollars}
+#'   \item{\code{pre_test_score}}{double:  pre-test score}
+#'   \item{\code{lifetime_savings}}{double:  lifetime savings, in $}
+#'   \item{\code{gifted}}{character:  identified as gifted recorded as y or n} 
+#'}
+#' @source \url{Pearson Publishing}
+"PearsonIQ"
+
+#' @title PearsonFuelEconomy
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 750 rows and 7 variables:
+#' \describe{
+#'   \item{\code{vehicle_number}}{double:  observation ID}
+#'   \item{\code{type}}{character:  car class}
+#'   \item{\code{vehicle_weight}}{double:  weight of vehicle in pounds}
+#'   \item{\code{average_mpg}}{double:  average miles per gallon}
+#'   \item{\code{fuel_tank_size_gallons}}{double:  size of fuel tank in gallons}
+#'   \item{\code{engine_size_l}}{double:  size of engine in liters}
+#'   \item{\code{meet_or_not_meet_current_standards}}{character:  does car meet current fuel standards, recorded as y or n.} 
+#'}
+#' @source {Pearson Publishing}
+"PearsonFuelEconomy"
+
+#' @title PearsonClassSize
+#' @description demogaraphic information about class sizes and performance
+#' @format A data frame with 300 rows and 6 variables:
+#' \describe{
+#'   \item{\code{campus}}{character:  which campus}
+#'   \item{\code{class_size}}{double:  number of students in class}
+#'   \item{\code{average_final_grade}}{double:  average final numeric grade}
+#'   \item{\code{number_of_f_s}}{double:  how many Fs given in the class}
+#'   \item{\code{average_g_p_a}}{double:  average GPA of students in class}
+#'   \item{\code{successful_or_unsuccessful}}{character:} 
+#'}
+#' @source {Pearson Publishing}
+"PearsonClassSize"
+
+#' @title PearsonCrackerBarrel
+#' @description information about various Cracker Barrel restaurants
+#' @format A data frame with 150 rows and 7 variables:
+#' \describe{
+#'   \item{\code{restaurant_number}}{double:  restaurant ID}
+#'   \item{\code{geographic_region}}{character:  geographic region}
+#'   \item{\code{annual_revenue}}{double:  annual revenue in $}
+#'   \item{\code{average_cost_of_gasoline}}{double:  average cost of gasoline near restaurant}
+#'   \item{\code{miles_from_interstate}}{double:  distance from nearest interstate, in miles}
+#'   \item{\code{square_feet}}{double:  size of restaurant in square feet}
+#'   \item{\code{annual_increase_in_revenue}}{character:  did revenue increase this year over the previous year, coded as y or n.} 
+#'}
+#' @source {Pearson Publishing}
+"PearsonCrackerBarrel"
+
