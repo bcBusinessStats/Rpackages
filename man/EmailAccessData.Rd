@@ -6,7 +6,6 @@
 \title{EmailAccessData}
 \format{A data frame with 15 rows and 2 variables:
 \describe{
-  \item{\code{id}}{integer: identifier}
   \item{\code{emailv1}}{double: Version 1 download speed in seconds}
   \item{\code{emailv2}}{double: Version 2 download speed in seconds} 
 }}

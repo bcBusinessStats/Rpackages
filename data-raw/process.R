@@ -92,10 +92,10 @@ sinew::makeOxygen(adultdata, add_fields = "source")
   usethis::use_data(cardata, overwrite = T)
   sinew::makeOxygen(cardata, add_fields = "source")
   
-  PearsonCrackerBarrel <- read_csv("data-raw/PearsonCrackerBarrel.csv")
-  PearsonCrackerBarrel <- clean_names(PearsonCrackerBarrel)
-  usethis::use_data(PearsonCrackerBarrel, overwrite = T)
-  sinew::makeOxygen(PearsonCrackerBarrel, add_fields = "source")
+  HouseSalesData <- read_csv("data-raw/HouseSalesData.csv")
+  HouseSalesData <- clean_names(HouseSalesData)
+  usethis::use_data(HouseSalesData, overwrite = T)
+  sinew::makeOxygen(HouseSalesData, add_fields = "source")
   
   mileage <- read_csv("data-raw/mileage.csv")
   mileage <- clean_names(mileage)
@@ -142,4 +142,27 @@ sinew::makeOxygen(adultdata, add_fields = "source")
   usethis::use_data(PearsonCrackerBarrel, overwrite = T)
   sinew::makeOxygen(PearsonCrackerBarrel, add_fields = "source")
   
-    
+  HouseSalesData <- read_csv("data-raw/HouseSalesData.csv")
+  HouseSalesData <- clean_names(HouseSalesData, case = "upper_camel")
+  usethis::use_data(HouseSalesData, overwrite = T)
+  sinew::makeOxygen(HouseSalesData, add_fields = "source") 
+  
+  CarInsData <- read_csv("data-raw/CarInsData.csv")
+  CarInsData <- rename(CarInsData, Obs = X1)
+  usethis::use_data(CarInsData, overwrite = T)
+  sinew::makeOxygen(CarInsData, add_fields = "source") 
+  
+  EmailAccessData <- read_csv("data-raw/EmailAccessData.csv")
+  usethis::use_data(EmailAccessData, overwrite = T)
+  
+  HeartData <- read_csv("data-raw/HeartData.csv")
+  usethis::use_data(HeartData, overwrite = T)
+  sinew::makeOxygen(HeartData, add_fields = "source") 
+  
+  SpeedData <- read_csv("data-raw/SpeedData.csv")
+  usethis::use_data(SpeedData, overwrite = T)
+  sinew::makeOxygen(SpeedData, add_fields = "source") 
+  
+  
+
+  
