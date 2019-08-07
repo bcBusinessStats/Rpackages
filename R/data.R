@@ -685,166 +685,164 @@
 #'}
 #' @source {Pearson Publishing}
 "PearsonCrackerBarrel"
-
 #' @title HouseSalesData
-#' @description DATASET_DESCRIPTION
+#' @description Collection of variables that describe house sales in one community.
 #' @format A data frame with 1460 rows and 80 variables:
 #' \describe{
-#'   \item{\code{Id}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{MsZoning}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{LotFrontage}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{LotArea}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{Street}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{Alley}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{LotShape}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{LandContour}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{Utilities}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{LotConfig}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{LandSlope}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{Neighborhood}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{Condition1}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{Condition2}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{BldgType}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{HouseStyle}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{OverallQual}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{OverallCond}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{YearBuilt}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{YearRemodAdd}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{RoofStyle}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{RoofMatl}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{Exterior1St}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{Exterior2Nd}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{MasVnrType}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{MasVnrArea}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{ExterQual}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{ExterCond}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{Foundation}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{BsmtQual}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{BsmtCond}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{BsmtExposure}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{BsmtFinType1}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{BsmtFinSf1}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{BsmtFinType2}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{BsmtFinSf2}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{BsmtUnfSf}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{TotalBsmtSf}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{Heating}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{HeatingQc}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{CentralAir}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{Electrical}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{X1StFlrSf}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{X2NdFlrSf}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{LowQualFinSf}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{GrLivArea}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{BsmtFullBath}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{BsmtHalfBath}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{FullBath}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{HalfBath}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{BedroomAbvGr}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{KitchenAbvGr}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{KitchenQual}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{TotRmsAbvGrd}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{Functional}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{Fireplaces}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{FireplaceQu}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{GarageType}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{GarageYrBlt}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{GarageFinish}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{GarageCars}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{GarageArea}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{GarageQual}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{GarageCond}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{PavedDrive}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{WoodDeckSf}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{OpenPorchSf}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{EnclosedPorch}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{X3SsnPorch}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{ScreenPorch}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{PoolArea}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{PoolQc}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{Fence}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{MiscFeature}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{MiscVal}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{MoSold}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{YrSold}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{SaleType}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{SaleCondition}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{SalePrice}}{double COLUMN_DESCRIPTION} 
+#'   \item{\code{Id}}{double Identifier}
+#'   \item{\code{MsZoning}}{character zoning type}
+#'   \item{\code{LotFrontage}}{double linear feet of property frontage to street}
+#'   \item{\code{LotArea}}{double area in square feet of plot}
+#'   \item{\code{Street}}{character type of street}
+#'   \item{\code{Alley}}{character indicator for alley}
+#'   \item{\code{LotShape}}{character descriptor for shape of land plot}
+#'   \item{\code{LandContour}}{character contour of land}
+#'   \item{\code{Utilities}}{character utility type to property}
+#'   \item{\code{LotConfig}}{character configuration of plot}
+#'   \item{\code{LandSlope}}{character how sloped is the plot}
+#'   \item{\code{Neighborhood}}{character neighborhood}
+#'   \item{\code{Condition1}}{character }
+#'   \item{\code{Condition2}}{character }
+#'   \item{\code{BldgType}}{character }
+#'   \item{\code{HouseStyle}}{character }
+#'   \item{\code{OverallQual}}{double quality rating, 1 – 10 scale}
+#'   \item{\code{OverallCond}}{double condition rating, 1 – 10 scale}
+#'   \item{\code{YearBuilt}}{double }
+#'   \item{\code{YearRemodAdd}}{double }
+#'   \item{\code{RoofStyle}}{character type of roof on property}
+#'   \item{\code{RoofMatl}}{character material used in roof}
+#'   \item{\code{Exterior1St}}{character }
+#'   \item{\code{Exterior2Nd}}{character }
+#'   \item{\code{MasVnrType}}{character }
+#'   \item{\code{MasVnrArea}}{double COLUMN }
+#'   \item{\code{ExterQual}}{character }
+#'   \item{\code{ExterCond}}{character }
+#'   \item{\code{Foundation}}{character }
+#'   \item{\code{BsmtQual}}{character }
+#'   \item{\code{BsmtCond}}{character }
+#'   \item{\code{BsmtExposure}}{character }
+#'   \item{\code{BsmtFinType1}}{character }
+#'   \item{\code{BsmtFinSf1}}{double }
+#'   \item{\code{BsmtFinType2}}{character }
+#'   \item{\code{BsmtFinSf2}}{double }
+#'   \item{\code{BsmtUnfSf}}{double }
+#'   \item{\code{TotalBsmtSf}}{double }
+#'   \item{\code{Heating}}{character }
+#'   \item{\code{HeatingQc}}{character }
+#'   \item{\code{CentralAir}}{character }
+#'   \item{\code{Electrical}}{character }
+#'   \item{\code{X1StFlrSf}}{double }
+#'   \item{\code{X2NdFlrSf}}{double }
+#'   \item{\code{LowQualFinSf}}{double }
+#'   \item{\code{GrLivArea}}{double }
+#'   \item{\code{BsmtFullBath}}{double }
+#'   \item{\code{BsmtHalfBath}}{double }
+#'   \item{\code{FullBath}}{double }
+#'   \item{\code{HalfBath}}{double }
+#'   \item{\code{BedroomAbvGr}}{double }
+#'   \item{\code{KitchenAbvGr}}{double }
+#'   \item{\code{KitchenQual}}{character }
+#'   \item{\code{TotRmsAbvGrd}}{double }
+#'   \item{\code{Functional}}{character }
+#'   \item{\code{Fireplaces}}{double }
+#'   \item{\code{FireplaceQu}}{character }
+#'   \item{\code{GarageType}}{character }
+#'   \item{\code{GarageYrBlt}}{double }
+#'   \item{\code{GarageFinish}}{character }
+#'   \item{\code{GarageCars}}{double }
+#'   \item{\code{GarageArea}}{double }
+#'   \item{\code{GarageQual}}{character }
+#'   \item{\code{GarageCond}}{character }
+#'   \item{\code{PavedDrive}}{character }
+#'   \item{\code{WoodDeckSf}}{double }
+#'   \item{\code{OpenPorchSf}}{double }
+#'   \item{\code{EnclosedPorch}}{double }
+#'   \item{\code{X3SsnPorch}}{double }
+#'   \item{\code{ScreenPorch}}{double }
+#'   \item{\code{PoolArea}}{double }
+#'   \item{\code{PoolQc}}{character }
+#'   \item{\code{Fence}}{character }
+#'   \item{\code{MiscFeature}}{character }
+#'   \item{\code{MiscVal}}{double }
+#'   \item{\code{MoSold}}{double }
+#'   \item{\code{YrSold}}{double }
+#'   \item{\code{SaleType}}{character }
+#'   \item{\code{SaleCondition}}{character }
+#'   \item{\code{SalePrice}}{double } 
 #'}
-#' @source \url{http://somewhere.important.com/}
+#' 
 "HouseSalesData"
 
 
 #' @title CarInsData
-#' @description DATASET_DESCRIPTION
+#' @description dataset that includes various attributes about drivers, cars, and car crashes
 #' @format A data frame with 500 rows and 31 variables:
 #' \describe{
-#'   \item{\code{Obs}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{ID}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{Crash}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{CrashCost}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{DriverAge}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{LevelEducation}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{YearsJob}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{Income}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{SexofDriver}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{TypeofJob}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{TimeCommute}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{PointsonRecord}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{LicenseRevoked}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{ValueofHome}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{MaritalStatus}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{SingleParent}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{NumberKidsHome}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{NumberKidsDrive}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{UrbanorRural}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{AgeofCar}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{TypeofCar}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{TypeCarUse}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{BlueBookValue}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{RedCar}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{TimeasCustomer}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{NumberClaims5yr}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{Total5YrPayout}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{NotWorking}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{NewCar}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{GoodDriver}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{OwnHome}}{character COLUMN_DESCRIPTION} 
+#'   \item{\code{Obs}}{double }
+#'   \item{\code{ID}}{double }
+#'   \item{\code{Crash}}{double 0/1 indicator for crash where 1 indicates a crash}
+#'   \item{\code{CrashCost}}{double cost to insurance company of crash}
+#'   \item{\code{DriverAge}}{double age of driver}
+#'   \item{\code{LevelEducation}}{character level education of driver}
+#'   \item{\code{YearsJob}}{double years on current job}
+#'   \item{\code{Income}}{double income in US dollars}
+#'   \item{\code{SexofDriver}}{character sex, male or female}
+#'   \item{\code{TypeofJob}}{character job type}
+#'   \item{\code{TimeCommute}}{double in minutes, length of regular work commute}
+#'   \item{\code{PointsonRecord}}{double number points on driving record}
+#'   \item{\code{LicenseRevoked}}{character 0/1 indicator, 1 indicates has had license revoked}
+#'   \item{\code{ValueofHome}}{double in US dollars, value of home}
+#'   \item{\code{MaritalStatus}}{character indicator marital status}
+#'   \item{\code{SingleParent}}{character indicator single parent status}
+#'   \item{\code{NumberKidsHome}}{double }
+#'   \item{\code{NumberKidsDrive}}{double }
+#'   \item{\code{UrbanorRural}}{character where driver typically lives & drives}
+#'   \item{\code{AgeofCar}}{double }
+#'   \item{\code{TypeofCar}}{character }
+#'   \item{\code{TypeCarUse}}{character how vehicle is typically used}
+#'   \item{\code{BlueBookValue}}{double replacement value from Blue Book}
+#'   \item{\code{RedCar}}{character indicator for red cars}
+#'   \item{\code{TimeasCustomer}}{double number years driver has been a customer}
+#'   \item{\code{NumberClaims5yr}}{double number of claims in last 5 years}
+#'   \item{\code{Total5YrPayout}}{double US dollar value payouts of claims in last 5 years}
+#'   \item{\code{NotWorking}}{character indicator working or not}
+#'   \item{\code{NewCar}}{character indicator, new car or not}
+#'   \item{\code{GoodDriver}}{character indicator, good driver or not, based on points}
+#'   \item{\code{OwnHome}}{character indicator, own or rent, based on home value} 
 #'}
-#' @source \url{http://somewhere.important.com/}
+#' 
 "CarInsData"
 
 
 #' @title HeartData
-#' @description DATASET_DESCRIPTION
+#' @description variables about heart health events
 #' @format A data frame with 303 rows and 14 variables:
 #' \describe{
-#'   \item{\code{age}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{sex}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{cp}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{trestbps}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{chol}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{fbs}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{restecg}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{thalach}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{exang}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{oldpeak}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{slope}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{ca}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{thal}}{double COLUMN_DESCRIPTION}
-#'   \item{\code{target}}{double COLUMN_DESCRIPTION} 
+#'   \item{\code{age}}{double }
+#'   \item{\code{sex}}{double }
+#'   \item{\code{cp}}{double }
+#'   \item{\code{trestbps}}{double }
+#'   \item{\code{chol}}{double }
+#'   \item{\code{fbs}}{double }
+#'   \item{\code{restecg}}{double }
+#'   \item{\code{thalach}}{double }
+#'   \item{\code{exang}}{double }
+#'   \item{\code{oldpeak}}{double }
+#'   \item{\code{slope}}{double }
+#'   \item{\code{ca}}{double }
+#'   \item{\code{thal}}{double }
+#'   \item{\code{target}}{double } 
 #'}
-#' @source \url{http://somewhere.important.com/}
+#' 
 "HeartData"
 
 
 #' @title SpeedData
-#' @description DATASET_DESCRIPTION
+#' @description email download speeds
 #' @format A data frame with 30 rows and 2 variables:
 #' \describe{
-#'   \item{\code{TYPE}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{SPEED}}{double COLUMN_DESCRIPTION} 
+#'   \item{\code{TYPE}}{character email interface application}
+#'   \item{\code{SPEED}}{double email opening speed in seconds} 
 #'}
-#' @source \url{http://somewhere.important.com/}
+#' 
 "SpeedData"
-

@@ -6,45 +6,42 @@
 \title{CarInsData}
 \format{A data frame with 500 rows and 31 variables:
 \describe{
-  \item{\code{Obs}}{double COLUMN_DESCRIPTION}
-  \item{\code{ID}}{double COLUMN_DESCRIPTION}
-  \item{\code{Crash}}{double COLUMN_DESCRIPTION}
-  \item{\code{CrashCost}}{double COLUMN_DESCRIPTION}
-  \item{\code{DriverAge}}{double COLUMN_DESCRIPTION}
-  \item{\code{LevelEducation}}{character COLUMN_DESCRIPTION}
-  \item{\code{YearsJob}}{double COLUMN_DESCRIPTION}
-  \item{\code{Income}}{double COLUMN_DESCRIPTION}
-  \item{\code{SexofDriver}}{character COLUMN_DESCRIPTION}
-  \item{\code{TypeofJob}}{character COLUMN_DESCRIPTION}
-  \item{\code{TimeCommute}}{double COLUMN_DESCRIPTION}
-  \item{\code{PointsonRecord}}{double COLUMN_DESCRIPTION}
-  \item{\code{LicenseRevoked}}{character COLUMN_DESCRIPTION}
-  \item{\code{ValueofHome}}{double COLUMN_DESCRIPTION}
-  \item{\code{MaritalStatus}}{character COLUMN_DESCRIPTION}
-  \item{\code{SingleParent}}{character COLUMN_DESCRIPTION}
-  \item{\code{NumberKidsHome}}{double COLUMN_DESCRIPTION}
-  \item{\code{NumberKidsDrive}}{double COLUMN_DESCRIPTION}
-  \item{\code{UrbanorRural}}{character COLUMN_DESCRIPTION}
-  \item{\code{AgeofCar}}{double COLUMN_DESCRIPTION}
-  \item{\code{TypeofCar}}{character COLUMN_DESCRIPTION}
-  \item{\code{TypeCarUse}}{character COLUMN_DESCRIPTION}
-  \item{\code{BlueBookValue}}{double COLUMN_DESCRIPTION}
-  \item{\code{RedCar}}{character COLUMN_DESCRIPTION}
-  \item{\code{TimeasCustomer}}{double COLUMN_DESCRIPTION}
-  \item{\code{NumberClaims5yr}}{double COLUMN_DESCRIPTION}
-  \item{\code{Total5YrPayout}}{double COLUMN_DESCRIPTION}
-  \item{\code{NotWorking}}{character COLUMN_DESCRIPTION}
-  \item{\code{NewCar}}{character COLUMN_DESCRIPTION}
-  \item{\code{GoodDriver}}{character COLUMN_DESCRIPTION}
-  \item{\code{OwnHome}}{character COLUMN_DESCRIPTION} 
+  \item{\code{Obs}}{double }
+  \item{\code{ID}}{double }
+  \item{\code{Crash}}{double 0/1 indicator for crash where 1 indicates a crash}
+  \item{\code{CrashCost}}{double cost to insurance company of crash}
+  \item{\code{DriverAge}}{double age of driver}
+  \item{\code{LevelEducation}}{character level education of driver}
+  \item{\code{YearsJob}}{double years on current job}
+  \item{\code{Income}}{double income in US dollars}
+  \item{\code{SexofDriver}}{character sex, male or female}
+  \item{\code{TypeofJob}}{character job type}
+  \item{\code{TimeCommute}}{double in minutes, length of regular work commute}
+  \item{\code{PointsonRecord}}{double number points on driving record}
+  \item{\code{LicenseRevoked}}{character 0/1 indicator, 1 indicates has had license revoked}
+  \item{\code{ValueofHome}}{double in US dollars, value of home}
+  \item{\code{MaritalStatus}}{character indicator marital status}
+  \item{\code{SingleParent}}{character indicator single parent status}
+  \item{\code{NumberKidsHome}}{double }
+  \item{\code{NumberKidsDrive}}{double }
+  \item{\code{UrbanorRural}}{character where driver typically lives & drives}
+  \item{\code{AgeofCar}}{double }
+  \item{\code{TypeofCar}}{character }
+  \item{\code{TypeCarUse}}{character how vehicle is typically used}
+  \item{\code{BlueBookValue}}{double replacement value from Blue Book}
+  \item{\code{RedCar}}{character indicator for red cars}
+  \item{\code{TimeasCustomer}}{double number years driver has been a customer}
+  \item{\code{NumberClaims5yr}}{double number of claims in last 5 years}
+  \item{\code{Total5YrPayout}}{double US dollar value payouts of claims in last 5 years}
+  \item{\code{NotWorking}}{character indicator working or not}
+  \item{\code{NewCar}}{character indicator, new car or not}
+  \item{\code{GoodDriver}}{character indicator, good driver or not, based on points}
+  \item{\code{OwnHome}}{character indicator, own or rent, based on home value} 
 }}
-\source{
-\url{http://somewhere.important.com/}
-}
 \usage{
 CarInsData
 }
 \description{
-DATASET_DESCRIPTION
+dataset that includes various attributes about drivers, cars, and car crashes
 }
 \keyword{datasets}

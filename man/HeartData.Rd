@@ -6,28 +6,25 @@
 \title{HeartData}
 \format{A data frame with 303 rows and 14 variables:
 \describe{
-  \item{\code{age}}{double COLUMN_DESCRIPTION}
-  \item{\code{sex}}{double COLUMN_DESCRIPTION}
-  \item{\code{cp}}{double COLUMN_DESCRIPTION}
-  \item{\code{trestbps}}{double COLUMN_DESCRIPTION}
-  \item{\code{chol}}{double COLUMN_DESCRIPTION}
-  \item{\code{fbs}}{double COLUMN_DESCRIPTION}
-  \item{\code{restecg}}{double COLUMN_DESCRIPTION}
-  \item{\code{thalach}}{double COLUMN_DESCRIPTION}
-  \item{\code{exang}}{double COLUMN_DESCRIPTION}
-  \item{\code{oldpeak}}{double COLUMN_DESCRIPTION}
-  \item{\code{slope}}{double COLUMN_DESCRIPTION}
-  \item{\code{ca}}{double COLUMN_DESCRIPTION}
-  \item{\code{thal}}{double COLUMN_DESCRIPTION}
-  \item{\code{target}}{double COLUMN_DESCRIPTION} 
+  \item{\code{age}}{double }
+  \item{\code{sex}}{double }
+  \item{\code{cp}}{double }
+  \item{\code{trestbps}}{double }
+  \item{\code{chol}}{double }
+  \item{\code{fbs}}{double }
+  \item{\code{restecg}}{double }
+  \item{\code{thalach}}{double }
+  \item{\code{exang}}{double }
+  \item{\code{oldpeak}}{double }
+  \item{\code{slope}}{double }
+  \item{\code{ca}}{double }
+  \item{\code{thal}}{double }
+  \item{\code{target}}{double } 
 }}
-\source{
-\url{http://somewhere.important.com/}
-}
 \usage{
 HeartData
 }
 \description{
-DATASET_DESCRIPTION
+variables about heart health events
 }
 \keyword{datasets}

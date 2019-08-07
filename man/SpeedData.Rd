@@ -6,16 +6,13 @@
 \title{SpeedData}
 \format{A data frame with 30 rows and 2 variables:
 \describe{
-  \item{\code{TYPE}}{character COLUMN_DESCRIPTION}
-  \item{\code{SPEED}}{double COLUMN_DESCRIPTION} 
+  \item{\code{TYPE}}{character email interface application}
+  \item{\code{SPEED}}{double email opening speed in seconds} 
 }}
-\source{
-\url{http://somewhere.important.com/}
-}
 \usage{
 SpeedData
 }
 \description{
-DATASET_DESCRIPTION
+email download speeds
 }
 \keyword{datasets}
