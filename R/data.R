@@ -881,7 +881,7 @@
 #'   \item{\code{HourlyRate}}{double, unsure what this field is}
 #'   \item{\code{JobInvolvement}}{double, lower numbers indicate less involvement}
 #'   \item{\code{JobLevel}}{double, lower numbers indicate lower level}
-#'   \item{\code{JobRole}}{character, job role
+#'   \item{\code{JobRole}}{character, job role}
 #'   \item{\code{JobSatisfaction}}{double, lower numbers indicate lower satisfaction}
 #'   \item{\code{MaritalStatus}}{character, marital status}
 #'   \item{\code{MonthlyIncome}}{double, monthy income}
@@ -891,7 +891,7 @@
 #'   \item{\code{OverTime}}{character, not sure what ths field is}
 #'   \item{\code{PercentSalaryHike}}{double}
 #'   \item{\code{PerformanceRating}}{double, higher numbers indicate higher rating}
-#'   \item{\code{RelationshipSatisfaction}}{double, higher numbers indicate higher satisfaction
+#'   \item{\code{RelationshipSatisfaction}}{double, higher numbers indicate higher satisfaction}
 #'   \item{\code{StandardHours}}{double COLUMN_DESCRIPTION}
 #'   \item{\code{StockOptionLevel}}{double COLUMN_DESCRIPTION}
 #'   \item{\code{TotalWorkingYears}}{double COLUMN_DESCRIPTION}
