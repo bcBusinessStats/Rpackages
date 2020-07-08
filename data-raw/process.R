@@ -19,6 +19,7 @@ SNSdata <- read_csv("data-raw/SNSdata.csv")
 burgerking <- read_csv("data-raw/BurgerKing.csv")
 mpgdata <- read_csv("data-raw/mpgdata.csv")
 
+
 popcorn_data <- PopcornData %>% select(-id) %>% mutate(ID = seq(1:n()))
 popcorn_data <- popcorn_data %>% select(ID, rank, grade, sale, year)
 
@@ -32,6 +33,8 @@ SNSdata <- mutate(SNSdata, how_often_visit = fct_relevel(how_often_visit,
                                                            "Don't know")
                                                          )
                   )
+
+
 
 usethis::use_data(ZagatData, AirlineData, CoffeeTypeData, 
                    CollegeRetData, CreditCardData, EmailAccessData, 
@@ -163,6 +166,20 @@ sinew::makeOxygen(adultdata, add_fields = "source")
   usethis::use_data(SpeedData, overwrite = T)
   sinew::makeOxygen(SpeedData, add_fields = "source") 
   
-  
+# Datasets added 5/2020
+  #already in .Rdata form
+  load("data-raw/AdsManager.Rdata")
+  usethis::use_data(AdsManager, overwrite = T)
+  sinew::makeOxygen(AdsManager, add_fields = "source") 
 
+# 7/8/20:  Add IBM employee attrition set
+  EmployeeAtt <- read_csv("data-raw/EmployeeAtt.csv")
+  
+    # clean data:  do this later
+      #EmployeeAtt <- mutate(EmployeeAtt, Education = as.character(Education), Education = fct_recode(Education, "Below College" = "1", "College" = "2", "Bachelor" = "3", "Master" = "4", "Doctor" = "5"),
+            #              )
+  
+  usethis::use_data(EmployeeAtt, overwrite = T)
+  sinew::makeOxygen(EmployeeAtt, add_fields = "source") 
+  
   

@@ -846,3 +846,61 @@
 #'}
 #' 
 "SpeedData"
+
+#' @title AdsManager
+#' @description Fields from Google AdsManager
+#' @format A data frame with 2667 rows and 6 variables:
+#' \describe{
+#'   \item{\code{platform}}{character did viewer see ad on Facebook or Instagram}
+#'   \item{\code{age_group}}{character age group of viewer}
+#'   \item{\code{device_type}}{character device type viewer used to see ad}
+#'   \item{\code{clicked}}{character yes if viewer clicked on the ad to navigate to website}
+#'   \item{\code{pageviews}}{double number of pages viewed after clicking}
+#'   \item{\code{amt_spent}}{double amount spent on website after clicking} 
+#'}
+#' @source "made-up by Stephanie Jernigan"
+"AdsManager"
+
+
+#' @title EmployeeAtt
+#' @description simulated data on employee attrition created by IBM
+#' @format A data frame with 1470 rows and 35 variables:
+#' \describe{
+#'   \item{\code{Age}}{double, employee age}
+#'   \item{\code{Attrition}}{character, Yes if left company, No otherwise}
+#'   \item{\code{BusinessTravel}}{character, frequency of business travel}
+#'   \item{\code{DailyRate}}{double, unsure what this field is}
+#'   \item{\code{Department}}{character, employee's work department}
+#'   \item{\code{DistanceFromHome}}{double, commute distance in miles}
+#'   \item{\code{Education}}{double, level of education:  lower numbers are less}
+#'   \item{\code{EducationField}}{character, field of study during education}
+#'   \item{\code{EmployeeCount}}{double, this field is always 1}
+#'   \item{\code{EmployeeNumber}}{double, employee ID}
+#'   \item{\code{EnvironmentSatisfaction}}{double, lower numbers indicate lower satisfaction}
+#'   \item{\code{Gender}}{character, gender}
+#'   \item{\code{HourlyRate}}{double, unsure what this field is}
+#'   \item{\code{JobInvolvement}}{double, lower numbers indicate less involvement}
+#'   \item{\code{JobLevel}}{double, lower numbers indicate lower level}
+#'   \item{\code{JobRole}}{character, job role
+#'   \item{\code{JobSatisfaction}}{double, lower numbers indicate lower satisfaction}
+#'   \item{\code{MaritalStatus}}{character, marital status}
+#'   \item{\code{MonthlyIncome}}{double, monthy income}
+#'   \item{\code{MonthlyRate}}{double, unsure what this field is}
+#'   \item{\code{NumCompaniesWorked}}{double, number of companies have worked for previously}
+#'   \item{\code{Over18}}{character, Y if over 18}
+#'   \item{\code{OverTime}}{character, not sure what ths field is}
+#'   \item{\code{PercentSalaryHike}}{double}
+#'   \item{\code{PerformanceRating}}{double, higher numbers indicate higher rating}
+#'   \item{\code{RelationshipSatisfaction}}{double, higher numbers indicate higher satisfaction
+#'   \item{\code{StandardHours}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{StockOptionLevel}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{TotalWorkingYears}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{TrainingTimesLastYear}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{WorkLifeBalance}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{YearsAtCompany}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{YearsInCurrentRole}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{YearsSinceLastPromotion}}{double COLUMN_DESCRIPTION}
+#'   \item{\code{YearsWithCurrManager}}{double COLUMN_DESCRIPTION} 
+#'}
+#' @source \url{https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset/metadata}
+"EmployeeAtt"
