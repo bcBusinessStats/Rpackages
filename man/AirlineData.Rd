@@ -4,12 +4,14 @@
 \name{AirlineData}
 \alias{AirlineData}
 \title{AirlineData}
-\format{A data frame with 50 rows and 4 variables:
+\format{
+A data frame with 50 rows and 4 variables:
 \describe{
   \item{\code{airline}}{character: airline}
   \item{\code{status}}{character: delay status}
   \item{\code{minutes}}{integer: actual number of minutes deviation from schedule, negative indicates minutes early, positive indicates minutes late)}
-}}
+}
+}
 \source{
 {}
 }

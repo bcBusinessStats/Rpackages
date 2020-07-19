@@ -4,11 +4,13 @@
 \name{foodads}
 \alias{foodads}
 \title{foodads}
-\format{A data frame with 118 rows and 2 variables:
+\format{
+A data frame with 118 rows and 2 variables:
 \describe{
   \item{\code{AdType}}{character:  type of ad child watched, either food or nonfood}
   \item{\code{GramsEaten}}{double:  grams of Goldfish crackers child ate while watching} 
-}}
+}
+}
 \source{
 \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2743554/}
 }

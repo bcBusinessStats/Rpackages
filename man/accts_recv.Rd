@@ -4,7 +4,8 @@
 \name{accts_recv}
 \alias{accts_recv}
 \title{accts_recv}
-\format{A data frame with 2466 rows and 12 variables:
+\format{
+A data frame with 2466 rows and 12 variables:
 \describe{
   \item{\code{countryCode}}{integer:  country identifier}
   \item{\code{customerID}}{character:  customer identifier}
@@ -18,7 +19,8 @@
   \item{\code{PaperlessBill}}{character:  Paper if a hard copy of the invoice was sent; Electronic otherwise}
   \item{\code{DaysToSettle}}{integer:  number of days required to settle the invoice}
   \item{\code{DaysLate}}{integer:  number of days late the invoice was} 
-}}
+}
+}
 \source{
 \url{https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/}
 }

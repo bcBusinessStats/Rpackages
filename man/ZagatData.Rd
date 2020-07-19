@@ -4,7 +4,8 @@
 \name{ZagatData}
 \alias{ZagatData}
 \title{ZagatData}
-\format{A data frame with 100 rows and 6 variables:
+\format{
+A data frame with 100 rows and 6 variables:
 \describe{
   \item{\code{location}}{character: restaurant location, suburban or city}
   \item{\code{food}}{integer: food rating on 30 point scale}
@@ -12,7 +13,8 @@
   \item{\code{service}}{integer: service rating on 30 point scale}
   \item{\code{totalrating}}{integer: sum of food, decor, and service ratings}
   \item{\code{avgprice}}{integer: average menu price per person} 
-}}
+}
+}
 \source{
 {from Zagat}
 }

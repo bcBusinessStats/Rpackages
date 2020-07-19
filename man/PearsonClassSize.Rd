@@ -4,7 +4,8 @@
 \name{PearsonClassSize}
 \alias{PearsonClassSize}
 \title{PearsonClassSize}
-\format{A data frame with 300 rows and 6 variables:
+\format{
+A data frame with 300 rows and 6 variables:
 \describe{
   \item{\code{campus}}{character:  which campus}
   \item{\code{class_size}}{double:  number of students in class}
@@ -12,7 +13,8 @@
   \item{\code{number_of_f_s}}{double:  how many Fs given in the class}
   \item{\code{average_g_p_a}}{double:  average GPA of students in class}
   \item{\code{successful_or_unsuccessful}}{character:} 
-}}
+}
+}
 \source{
 {Pearson Publishing}
 }

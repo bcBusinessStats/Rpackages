@@ -4,7 +4,8 @@
 \name{atus_summary}
 \alias{atus_summary}
 \title{atus_summary}
-\format{A data frame with 130150 rows and 23 variables:
+\format{
+A data frame with 130150 rows and 23 variables:
 \describe{
   \item{\code{Education Level}}{character COLUMN_DESCRIPTION}
   \item{\code{Age}}{integer COLUMN_DESCRIPTION}
@@ -29,7 +30,8 @@
   \item{\code{Golfing}}{integer COLUMN_DESCRIPTION}
   \item{\code{Running}}{integer COLUMN_DESCRIPTION}
   \item{\code{Volunteering}}{integer COLUMN_DESCRIPTION} 
-}}
+}
+}
 \source{
 \url{https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/}
 }

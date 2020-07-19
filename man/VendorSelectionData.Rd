@@ -4,12 +4,14 @@
 \name{VendorSelectionData}
 \alias{VendorSelectionData}
 \title{VendorSelectionData}
-\format{A data frame with 454 rows and 3 variables:
+\format{
+A data frame with 454 rows and 3 variables:
 \describe{
   \item{\code{item}}{character: identifier}
   \item{\code{vendorA}}{double: Vendor A replacement value quote}
   \item{\code{vendorB}}{double: Vendor B replacement value quote} 
-}}
+}
+}
 \source{
 {collected from insurance company}
 }

@@ -4,7 +4,8 @@
 \name{HeartData}
 \alias{HeartData}
 \title{HeartData}
-\format{A data frame with 303 rows and 14 variables:
+\format{
+A data frame with 303 rows and 14 variables:
 \describe{
   \item{\code{age}}{double }
   \item{\code{sex}}{double }
@@ -20,7 +21,8 @@
   \item{\code{ca}}{double }
   \item{\code{thal}}{double }
   \item{\code{target}}{double } 
-}}
+}
+}
 \usage{
 HeartData
 }

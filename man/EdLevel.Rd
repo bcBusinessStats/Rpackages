@@ -4,10 +4,12 @@
 \name{EdLevel}
 \alias{EdLevel}
 \title{EdLevel}
-\format{A data frame with 510 rows and 1 variables:
+\format{
+A data frame with 510 rows and 1 variables:
 \describe{
   \item{\code{edlevel}}{character:  highest education level attained} 
-}}
+}
+}
 \usage{
 EdLevel
 }

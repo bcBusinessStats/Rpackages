@@ -4,7 +4,8 @@
 \name{PearsonFuelEff}
 \alias{PearsonFuelEff}
 \title{Pearson Fuel Efficiency}
-\format{A data frame with 84 rows and 9 variables:
+\format{
+A data frame with 84 rows and 9 variables:
 \describe{
   \item{\code{model}}{character:  car model}
   \item{\code{eng_size}}{double:  engine size, in liters}
@@ -15,7 +16,8 @@
   \item{\code{weight}}{double:  weight, pounds}
   \item{\code{type}}{character:  type of car}
   \item{\code{country}}{character:  country where manufacturer is based} 
-}}
+}
+}
 \source{
 {Pearson Publishing}
 }

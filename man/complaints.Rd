@@ -4,11 +4,13 @@
 \name{complaints}
 \alias{complaints}
 \title{complaints}
-\format{A data frame with 31 rows and 2 variables:
+\format{
+A data frame with 31 rows and 2 variables:
 \describe{
   \item{\code{complaints_before}}{double:  average complaints per week before training}
   \item{\code{complaints_after}}{double:  average complaints per week after training} 
-}}
+}
+}
 \source{
 {}
 }

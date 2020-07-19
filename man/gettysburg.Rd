@@ -4,12 +4,14 @@
 \name{gettysburg}
 \alias{gettysburg}
 \title{gettysburg}
-\format{A data frame with 268 rows and 3 variables:
+\format{
+A data frame with 268 rows and 3 variables:
 \describe{
   \item{\code{words}}{character:  the words in the Gettysburg Address}
   \item{\code{length}}{integer: number of letters in the word}
   \item{\code{has_an_e}}{integer: 1 if contains an e; 0 otherwise} 
-}}
+}
+}
 \source{
 {parsed Gettysburg Address}
 }

@@ -4,7 +4,8 @@
 \name{PearsonIQ}
 \alias{PearsonIQ}
 \title{PearsonIQ}
-\format{A data frame with 500 rows and 7 variables:
+\format{
+A data frame with 500 rows and 7 variables:
 \describe{
   \item{\code{volunteer_number}}{double:  ID of respondent}
   \item{\code{gender}}{character:  gender}
@@ -13,7 +14,8 @@
   \item{\code{pre_test_score}}{double:  pre-test score}
   \item{\code{lifetime_savings}}{double:  lifetime savings, in $}
   \item{\code{gifted}}{character:  identified as gifted recorded as y or n} 
-}}
+}
+}
 \source{
 \url{Pearson Publishing}
 }

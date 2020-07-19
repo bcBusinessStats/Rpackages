@@ -4,11 +4,13 @@
 \name{moviedata}
 \alias{moviedata}
 \title{moviedata}
-\format{A data frame with 487 rows and 2 variables:
+\format{
+A data frame with 487 rows and 2 variables:
 \describe{
   \item{\code{AgeGroup}}{character: age group of viewer}
   \item{\code{SeenBefore}}{character: had viewer seen before?} 
-}}
+}
+}
 \usage{
 moviedata
 }

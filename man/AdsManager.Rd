@@ -4,7 +4,8 @@
 \name{AdsManager}
 \alias{AdsManager}
 \title{AdsManager}
-\format{A data frame with 2667 rows and 6 variables:
+\format{
+A data frame with 2667 rows and 6 variables:
 \describe{
   \item{\code{platform}}{character did viewer see ad on Facebook or Instagram}
   \item{\code{age_group}}{character age group of viewer}
@@ -12,7 +13,8 @@
   \item{\code{clicked}}{character yes if viewer clicked on the ad to navigate to website}
   \item{\code{pageviews}}{double number of pages viewed after clicking}
   \item{\code{amt_spent}}{double amount spent on website after clicking} 
-}}
+}
+}
 \source{
 "made-up by Stephanie Jernigan"
 }

@@ -4,12 +4,14 @@
 \name{decindep}
 \alias{decindep}
 \title{decindep}
-\format{A data frame with 1323 rows and 3 variables:
+\format{
+A data frame with 1323 rows and 3 variables:
 \describe{
   \item{\code{Word}}{character: word}
   \item{\code{Length}}{double:  number of letters in word}
   \item{\code{Has_an_e}}{logical:  TRUE if word contains an e} 
-}}
+}
+}
 \source{
 \url{http://somewhere.important.com/}
 }

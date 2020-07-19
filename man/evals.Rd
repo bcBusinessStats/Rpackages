@@ -4,7 +4,8 @@
 \name{evals}
 \alias{evals}
 \title{evals}
-\format{A data frame with 463 rows and 21 variables:
+\format{
+A data frame with 463 rows and 21 variables:
 \describe{
   \item{\code{score}}{double Average professor evaluation score}
   \item{\code{rank}}{integer Rank of professor:  teaching, tenure track, tenured.}
@@ -26,7 +27,8 @@
   \item{\code{bty_m2upper}}{integer Beauty rating of professor from second upper level male: (1) lowest - (10) highest.}
   \item{\code{pic_outfit}}{integer Outfit of professor in picture: not formal, formal.}
   \item{\code{pic_color}}{integer Color of professor’s picture: color, black & white.} 
-}}
+}
+}
 \source{
 \url{https://www.openintro.org/stat/data/evals.php}
 }

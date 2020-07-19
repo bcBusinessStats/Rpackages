@@ -4,7 +4,8 @@
 \name{CarInsData}
 \alias{CarInsData}
 \title{CarInsData}
-\format{A data frame with 500 rows and 31 variables:
+\format{
+A data frame with 500 rows and 31 variables:
 \describe{
   \item{\code{Obs}}{double }
   \item{\code{ID}}{double }
@@ -37,7 +38,8 @@
   \item{\code{NewCar}}{character indicator, new car or not}
   \item{\code{GoodDriver}}{character indicator, good driver or not, based on points}
   \item{\code{OwnHome}}{character indicator, own or rent, based on home value} 
-}}
+}
+}
 \usage{
 CarInsData
 }

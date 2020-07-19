@@ -4,10 +4,12 @@
 \name{CoffeeSaleData}
 \alias{CoffeeSaleData}
 \title{CoffeeSaleData}
-\format{A data frame with 50 rows and 1 variables:
+\format{
+A data frame with 50 rows and 1 variables:
 \describe{
   \item{\code{sales}}{double: customer level sales in US dollars} 
-}}
+}
+}
 \source{
 {}
 }

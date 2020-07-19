@@ -4,13 +4,15 @@
 \name{SNSdata}
 \alias{SNSdata}
 \title{snsdata}
-\format{A data frame with 609 rows and 4 variables:
+\format{
+A data frame with 609 rows and 4 variables:
 \describe{
   \item{\code{gender}}{character gender (male or female)}
   \item{\code{age}}{integer age}
   \item{\code{primary_sns}}{character primary social network used by tenn}
   \item{\code{how_often_visit}}{character how often do they visit their primary social network}
-}}
+}
+}
 \source{
 \url{http://www.pewinternet.org/dataset/september-2012-teens-and-online-privacy/}
 }

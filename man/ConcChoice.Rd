@@ -4,10 +4,12 @@
 \name{ConcChoice}
 \alias{ConcChoice}
 \title{ConcChoice}
-\format{A data frame with 49 rows and 1 variables:
+\format{
+A data frame with 49 rows and 1 variables:
 \describe{
   \item{\code{conc_choice}}{character:  The name of the concentration they chose.} 
-}}
+}
+}
 \source{
 {past survey of Business Statistics students}
 }

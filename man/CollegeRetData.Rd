@@ -4,11 +4,13 @@
 \name{CollegeRetData}
 \alias{CollegeRetData}
 \title{CollegeRetData}
-\format{A data frame with 603 rows and 4 variables:
+\format{
+A data frame with 603 rows and 4 variables:
 \describe{
   \item{\code{currentyear}}{character: student's year in college}
   \item{\code{status}}{character: student's returning status for next college year}
-}}
+}
+}
 \source{
 {}
 }

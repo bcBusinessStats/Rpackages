@@ -4,12 +4,14 @@
 \name{vendor}
 \alias{vendor}
 \title{vendor}
-\format{A data frame with 453 rows and 3 variables:
+\format{
+A data frame with 453 rows and 3 variables:
 \describe{
   \item{\code{Item}}{character ID of electronic item being appraised}
   \item{\code{VendorA}}{double appraisal value from Vendor A}
   \item{\code{VendorB}}{double appraisal value from Vendor B} 
-}}
+}
+}
 \source{
 {donated by former student of Linda Boardman Liu}
 }

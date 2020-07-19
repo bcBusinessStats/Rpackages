@@ -4,14 +4,16 @@
 \name{PopcornData}
 \alias{PopcornData}
 \title{PopcornData}
-\format{A data frame with 134 rows and 5 variables:
+\format{
+A data frame with 134 rows and 5 variables:
 \describe{
   \item{\code{id}}{character:  identifier}
   \item{\code{rank}}{character:  scout rank}
   \item{\code{grade}}{integer:  scout's grade in school}
   \item{\code{sale}}{double:  dollar amount of popcorn sold by scout}
   \item{\code{year}}{integer: year of sale} 
-}}
+}
+}
 \source{
 {data collected from Cub Scout Pack 658 by Linda Boardman Liu}
 }

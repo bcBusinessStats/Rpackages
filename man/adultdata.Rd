@@ -4,7 +4,8 @@
 \name{adultdata}
 \alias{adultdata}
 \title{adultdata}
-\format{A data frame with 32561 rows and 15 variables:
+\format{
+A data frame with 32561 rows and 15 variables:
 \describe{
   \item{\code{age}}{double:  age in years}
   \item{\code{workclass}}{character categories: Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked}
@@ -21,7 +22,8 @@
   \item{\code{hours_per_week}}{double number of hours worked per week}
   \item{\code{native_country}}{character categories: United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands}
   \item{\code{morethan50k}}{character categories: >50K (annual income greater than $50K), <=50K (annual income less than $50K)} 
-}}
+}
+}
 \source{
 \url{http://www.census.gov/ftp/pub/DES/www/welcome.html}
 }

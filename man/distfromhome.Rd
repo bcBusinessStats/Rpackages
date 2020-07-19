@@ -4,11 +4,13 @@
 \name{distfromhome}
 \alias{distfromhome}
 \title{distfromhome}
-\format{A data frame with 375 rows and 2 variables:
+\format{
+A data frame with 375 rows and 2 variables:
 \describe{
   \item{\code{School}}{character:  School identifier}
   \item{\code{Distance}}{double:  distance from home in miles} 
-}}
+}
+}
 \source{
 {made up for an in-class exercise.  BC data comes from a class survey.}
 }

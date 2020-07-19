@@ -4,7 +4,8 @@
 \name{PearsonFuelEconomy}
 \alias{PearsonFuelEconomy}
 \title{PearsonFuelEconomy}
-\format{A data frame with 750 rows and 7 variables:
+\format{
+A data frame with 750 rows and 7 variables:
 \describe{
   \item{\code{vehicle_number}}{double:  observation ID}
   \item{\code{type}}{character:  car class}
@@ -13,7 +14,8 @@
   \item{\code{fuel_tank_size_gallons}}{double:  size of fuel tank in gallons}
   \item{\code{engine_size_l}}{double:  size of engine in liters}
   \item{\code{meet_or_not_meet_current_standards}}{character:  does car meet current fuel standards, recorded as y or n.} 
-}}
+}
+}
 \source{
 {Pearson Publishing}
 }

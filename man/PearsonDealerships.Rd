@@ -4,7 +4,8 @@
 \name{PearsonDealerships}
 \alias{PearsonDealerships}
 \title{PearsonDealerships}
-\format{A data frame with 1000 rows and 7 variables:
+\format{
+A data frame with 1000 rows and 7 variables:
 \describe{
   \item{\code{dealership_number}}{double:  dealership ID}
   \item{\code{state}}{character:  state dealership is located in}
@@ -13,7 +14,8 @@
   \item{\code{number_of_vehicles_sold}}{double:  number of vehicles sold in a period}
   \item{\code{square_feet}}{double:  square feet of dealership}
   \item{\code{quality_award_winner}}{character:  did they win a quality award, y or n} 
-}}
+}
+}
 \source{
 {Pearson Publishing}
 }

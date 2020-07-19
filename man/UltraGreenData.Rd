@@ -4,11 +4,13 @@
 \name{UltraGreenData}
 \alias{UltraGreenData}
 \title{UltraGreenData}
-\format{A data frame with 25 rows and 2 variables:
+\format{
+A data frame with 25 rows and 2 variables:
 \describe{
   \item{\code{carID}}{integer: identifier}
   \item{\code{mpg}}{integer: average miles per gallon} 
-}}
+}
+}
 \source{
 {}
 }

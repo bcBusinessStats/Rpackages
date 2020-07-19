@@ -4,12 +4,14 @@
 \name{bluebook}
 \alias{bluebook}
 \title{bluebook}
-\format{A data frame with 804 rows and 3 variables:
+\format{
+A data frame with 804 rows and 3 variables:
 \describe{
   \item{\code{Price}}{double:  sales price}
   \item{\code{Mileage}}{double: miles on odometer at time of sale}
   \item{\code{Make}}{character:  car manufacturer} 
-}}
+}
+}
 \source{
 \url{Jaggia and Kelly textbook}
 }

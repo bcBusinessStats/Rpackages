@@ -4,10 +4,12 @@
 \name{FilmAges}
 \alias{FilmAges}
 \title{FilmAges}
-\format{A data frame with 468 rows and 1 variables:
+\format{
+A data frame with 468 rows and 1 variables:
 \describe{
   \item{\code{ages}}{character:  age groups who attended movie} 
-}}
+}
+}
 \usage{
 FilmAges
 }

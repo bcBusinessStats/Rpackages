@@ -4,7 +4,8 @@
 \name{EmployeeAtt}
 \alias{EmployeeAtt}
 \title{EmployeeAtt}
-\format{A data frame with 1470 rows and 35 variables:
+\format{
+A data frame with 1470 rows and 35 variables:
 \describe{
   \item{\code{Age}}{double, employee age}
   \item{\code{Attrition}}{character, Yes if left company, No otherwise}
@@ -41,7 +42,8 @@
   \item{\code{YearsInCurrentRole}}{double COLUMN_DESCRIPTION}
   \item{\code{YearsSinceLastPromotion}}{double COLUMN_DESCRIPTION}
   \item{\code{YearsWithCurrManager}}{double COLUMN_DESCRIPTION} 
-}}
+}
+}
 \source{
 \url{https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset/metadata}
 }

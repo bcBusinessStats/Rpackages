@@ -4,7 +4,8 @@
 \name{mlb11}
 \alias{mlb11}
 \title{mlb11}
-\format{A data frame with 30 rows and 12 variables:
+\format{
+A data frame with 30 rows and 12 variables:
 \describe{
   \item{\code{team}}{factor Team name}
   \item{\code{runs}}{integer number of runs}
@@ -18,7 +19,8 @@
   \item{\code{new_onbase}}{double On base percentage, a measure of how often a batter reaches base for any reason other than a fielding error, fielder's choice, dropped/uncaught third strike, fielder's obstruction, or catcher's interference}
   \item{\code{new_slug}}{double Slugging percentage, popular measure of the power of a hitter calculated as the total bases divided by at bats}
   \item{\code{new_obs}}{double On base plus slugging, calculated as the sum of these two variables}
-}}
+}
+}
 \source{
 \url{https://www.openintro.org/stat/data/mlb11.php, via MLB.com}
 }

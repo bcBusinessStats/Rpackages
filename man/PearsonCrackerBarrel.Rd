@@ -4,7 +4,8 @@
 \name{PearsonCrackerBarrel}
 \alias{PearsonCrackerBarrel}
 \title{PearsonCrackerBarrel}
-\format{A data frame with 150 rows and 7 variables:
+\format{
+A data frame with 150 rows and 7 variables:
 \describe{
   \item{\code{restaurant_number}}{double:  restaurant ID}
   \item{\code{geographic_region}}{character:  geographic region}
@@ -13,7 +14,8 @@
   \item{\code{miles_from_interstate}}{double:  distance from nearest interstate, in miles}
   \item{\code{square_feet}}{double:  size of restaurant in square feet}
   \item{\code{annual_increase_in_revenue}}{character:  did revenue increase this year over the previous year, coded as y or n.} 
-}}
+}
+}
 \source{
 {Pearson Publishing}
 }

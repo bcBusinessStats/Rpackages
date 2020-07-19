@@ -4,13 +4,15 @@
 \name{PearsonTitanic}
 \alias{PearsonTitanic}
 \title{PearsonTitanic}
-\format{A data frame with 2201 rows and 4 variables:
+\format{
+A data frame with 2201 rows and 4 variables:
 \describe{
   \item{\code{class}}{character:  fare class}
   \item{\code{adult_child}}{character:  age category recorded as Adult or Child}
   \item{\code{male_female}}{character:  gender recorded as Male or Female}
   \item{\code{survival}}{character:  survival recorded as Alive or Dead} 
-}}
+}
+}
 \source{
 {Pearson Publishing}
 }

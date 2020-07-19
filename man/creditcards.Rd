@@ -4,7 +4,8 @@
 \name{creditcards}
 \alias{creditcards}
 \title{creditcards}
-\format{A data frame with 400 rows and 11 variables:
+\format{
+A data frame with 400 rows and 11 variables:
 \describe{
   \item{\code{ID}}{integer: customer ID}
   \item{\code{Income}}{double:  Income, in $1000s}
@@ -17,7 +18,8 @@
   \item{\code{Student}}{character:  1 if student; 0 otherwise}
   \item{\code{Married}}{character:  1 if married; 0 otherwise}
   \item{\code{Balance}}{integer:  Average monthly balance, in $} 
-}}
+}
+}
 \source{
 {adjusted from a sample of 'credit' dataset in 'ISLR' package.}
 }

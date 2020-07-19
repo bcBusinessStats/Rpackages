@@ -4,7 +4,8 @@
 \name{bk}
 \alias{bk}
 \title{bk}
-\format{A data frame with 32 rows and 9 variables:
+\format{
+A data frame with 32 rows and 9 variables:
 \describe{
   \item{\code{serving}}{double:  serving size, in grams}
   \item{\code{calories}}{double:  calories per serving}
@@ -15,7 +16,8 @@
   \item{\code{sodium}}{double milligrams of sodium per serving}
   \item{\code{sugars}}{double:  grams of sugar per serving}
   \item{\code{protein}}{double:  grams of protein per serving} 
-}}
+}
+}
 \source{
 {Sharpe, De Veaux, Velleman:  Business Statistics, A First Course, 2e, online chapters}
 }

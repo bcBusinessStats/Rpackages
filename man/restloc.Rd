@@ -4,14 +4,16 @@
 \name{restloc}
 \alias{restloc}
 \title{restloc}
-\format{A data frame with 33 rows and 5 variables:
+\format{
+A data frame with 33 rows and 5 variables:
 \describe{
   \item{\code{AnnSales}}{double: annual sales, in $1000s}
   \item{\code{RestNear}}{double: number of similar restaurants within a half-mile radius}
   \item{\code{PopulationK}}{double: COLUMN_DESCRIPTION}
   \item{\code{MedIncome}}{double: population in 1000s}
   \item{\code{InMall}}{double:  1 if restaurant is in a mall; 0 otherwise} 
-}}
+}
+}
 \source{
 \url{}
 }

@@ -4,7 +4,8 @@
 \name{burgerking}
 \alias{burgerking}
 \title{burgerking}
-\format{A data frame with 32 rows and 10 variables:
+\format{
+A data frame with 32 rows and 10 variables:
 \describe{
   \item{\code{item}}{character:  menu item name}
   \item{\code{Serving}}{double:  serving size in grams}
@@ -16,7 +17,8 @@
   \item{\code{Sodium}}{double:  milligrams of sodium per serving}
   \item{\code{Sugars}}{double:  grams of sugar per serving}
   \item{\code{Protein}}{double:  grams of protein per serving} 
-}}
+}
+}
 \source{
 \url{Sharpe, DeVeaux, Velleman electronic chapters}
 }

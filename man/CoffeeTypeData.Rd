@@ -4,10 +4,12 @@
 \name{CoffeeTypeData}
 \alias{CoffeeTypeData}
 \title{CoffeeTypeData}
-\format{A data frame with 50 rows and 1 variables:
+\format{
+A data frame with 50 rows and 1 variables:
 \describe{
   \item{\code{type}}{character: purchaser type} 
-}}
+}
+}
 \source{
 {}
 }

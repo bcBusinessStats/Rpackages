@@ -4,7 +4,8 @@
 \name{HouseSalesData}
 \alias{HouseSalesData}
 \title{HouseSalesData}
-\format{A data frame with 1460 rows and 80 variables:
+\format{
+A data frame with 1460 rows and 80 variables:
 \describe{
   \item{\code{Id}}{double Identifier}
   \item{\code{MsZoning}}{character zoning type}
@@ -86,7 +87,8 @@
   \item{\code{SaleType}}{character }
   \item{\code{SaleCondition}}{character }
   \item{\code{SalePrice}}{double } 
-}}
+}
+}
 \usage{
 HouseSalesData
 }

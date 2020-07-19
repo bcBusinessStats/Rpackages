@@ -4,7 +4,8 @@
 \name{bikeshare}
 \alias{bikeshare}
 \title{bikeshare}
-\format{A data frame with 17379 rows and 12 variables:
+\format{
+A data frame with 17379 rows and 12 variables:
 \describe{
   \item{\code{Instant}}{integer:  time slice identifier}
   \item{\code{Riders}}{integer:  number of riders during at this time}
@@ -18,7 +19,8 @@
   \item{\code{Temperature}}{integer:  temperature in degrees F}
   \item{\code{Humidity}}{double:  relative humidity measure}
   \item{\code{Wind}}{double:  an unknown measure of wind speed} 
-}}
+}
+}
 \source{
 \url{https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/}
 }

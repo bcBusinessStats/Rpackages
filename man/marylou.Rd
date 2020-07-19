@@ -4,11 +4,13 @@
 \name{marylou}
 \alias{marylou}
 \title{marylou}
-\format{A data frame with 50 rows and 2 variables:
+\format{
+A data frame with 50 rows and 2 variables:
 \describe{
   \item{\code{CustomerType}}{character:  adult or teenager}
   \item{\code{Spend}}{double amount of purchase when surveyed, in $} 
-}}
+}
+}
 \source{
 \url{adapted from exercise in Essentials of Business Statistics, 1st Edition, Sanjiv Jaggia and Alison Kelly , Copyright: 2014}
 }

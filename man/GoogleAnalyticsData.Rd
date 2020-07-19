@@ -4,7 +4,8 @@
 \name{GoogleAnalyticsData}
 \alias{GoogleAnalyticsData}
 \title{GoogleAnalyticsData}
-\format{A data frame with 5732 rows and 7 variables:
+\format{
+A data frame with 5732 rows and 7 variables:
 \describe{
   \item{\code{date}}{double date in Y-m-d format}
   \item{\code{channelGrouping}}{character how site viewer found site}
@@ -13,7 +14,8 @@
   \item{\code{pageviews}}{integer total pages viewed by those viewers}
   \item{\code{entrances}}{integer number of entrances, see https://support.google.com/analytics/answer/2956047?hl=en}
   \item{\code{bounces}}{integer viewers who leave site after viewing exactly one page}
-}}
+}
+}
 \source{
 \url{http://www.dartistics.com/data/gadata_example_2.csv}
 }

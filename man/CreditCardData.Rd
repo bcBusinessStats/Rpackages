@@ -4,7 +4,8 @@
 \name{CreditCardData}
 \alias{CreditCardData}
 \title{CreditCardData}
-\format{A data frame with 401 rows and 11 variables:
+\format{
+A data frame with 401 rows and 11 variables:
 \describe{
   \item{\code{id}}{integer: identifier}
   \item{\code{income}}{double: in thousands of US dollars}
@@ -17,7 +18,8 @@
   \item{\code{student}}{character: customer student indicator, yes or no}
   \item{\code{married}}{character: customer marital status indicator, yes or no}
   \item{\code{balance}}{integer: average credit card debt in US dollars} 
-}}
+}
+}
 \source{
 {}
 }

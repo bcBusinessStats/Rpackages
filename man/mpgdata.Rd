@@ -4,7 +4,8 @@
 \name{mpgdata}
 \alias{mpgdata}
 \title{mpgdata}
-\format{A data frame with 84 rows and 9 variables:
+\format{
+A data frame with 84 rows and 9 variables:
 \describe{
   \item{\code{Model}}{character:  model of car}
   \item{\code{Eng Size}}{double:  liters}
@@ -15,7 +16,8 @@
   \item{\code{Weight}}{double:  weight in pounds}
   \item{\code{Type}}{character:  car class}
   \item{\code{Country}}{character:  country of manufacturer} 
-}}
+}
+}
 \source{
 \url{Sharpe, DeVeaux, Velleman electronic chapters}
 }

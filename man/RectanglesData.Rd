@@ -4,12 +4,14 @@
 \name{RectanglesData}
 \alias{RectanglesData}
 \title{RectanglesData}
-\format{A data frame with 100 rows and 3 variables:
+\format{
+A data frame with 100 rows and 3 variables:
 \describe{
   \item{\code{Number}}{integer: identifier}
   \item{\code{Actual Sizes}}{integer: number of rectangles}
   \item{\code{OddEven}}{character: categorical indicating odd or even number of rectangles} 
-}}
+}
+}
 \source{
 {}
 }

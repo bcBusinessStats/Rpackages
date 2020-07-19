@@ -4,11 +4,13 @@
 \name{mortality}
 \alias{mortality}
 \title{mortality}
-\format{A data frame with 2021 rows and 2 variables:
+\format{
+A data frame with 2021 rows and 2 variables:
 \describe{
   \item{\code{ID}}{integer policy holder ID}
   \item{\code{Claimed}}{integer 1 if made claim on term life insturance; 0 otherwise}
-}}
+}
+}
 \source{
 {Made up by Stephanie Jernigan, June 2018}
 }
