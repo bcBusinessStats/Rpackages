@@ -905,7 +905,7 @@
 #' @source \url{https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset/metadata}
 "EmployeeAtt"
 
-#' @title Customer Value
+#' @title CustomerValue
 #' @description Simulated data about auto insurance company and value of customer, by IBM
 #' @format A data frame with 9134 rows and 24 variables:
 #' \describe{
