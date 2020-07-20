@@ -183,7 +183,7 @@ sinew::makeOxygen(adultdata, add_fields = "source")
   sinew::makeOxygen(EmployeeAtt, add_fields = "source") 
   
 #7/19/20 Add IBM customer value set (car insurance)
-  CustValue <- read_csv("data-raw/IBMCustomerValueAnalysisData.csv")
+  CustValue <- read_csv("data-raw/IBMCustomerValueAnalysisData.csv") %>% clean_names()
   usethis::use_data(CustValue, overwrite = T)
   sinew::makeOxygen(CustValue, add_fields = "source") 
   

@@ -905,34 +905,35 @@
 #' @source \url{https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset/metadata}
 "EmployeeAtt"
 
-#' @title CustomerValue
+
+#' @title CustValue
 #' @description Simulated data about auto insurance company and value of customer, by IBM
 #' @format A data frame with 9134 rows and 24 variables:
 #' \describe{
-#'   \item{\code{Customer}}{character Customer ID}
-#'   \item{\code{State}}{character U.S. state of residence}
-#'   \item{\code{Customer Lifetime Value}}{double value of customer to company in USD}
-#'   \item{\code{Response}}{character unsure what this is}
-#'   \item{\code{Coverage}}{character type of auto insurance policy}
-#'   \item{\code{Education}}{character level of education}
-#'   \item{\code{Effective To Date}}{character unsure what this is}
-#'   \item{\code{EmploymentStatus}}{character employment status}
-#'   \item{\code{Gender}}{character gender}
-#'   \item{\code{Income}}{double income, USD}
-#'   \item{\code{Location Code}}{character type of location of policyholder residence}
-#'   \item{\code{Marital Status}}{character marital status}
-#'   \item{\code{Monthly Premium Auto}}{double monthly cost of auto premium}
-#'   \item{\code{Months Since Last Claim}}{double how many months since last claim}
-#'   \item{\code{Months Since Policy Inception}}{double months since became a policyholder}
-#'   \item{\code{Number of Open Complaints}}{double number of open complaints (unsure made by whom about who)}
-#'   \item{\code{Number of Policies}}{double number of policies (other insurance policies by same company)}
-#'   \item{\code{Policy Type}}{character type of auto policy}
-#'   \item{\code{Policy}}{character further breakdown of type of auto policy}
-#'   \item{\code{Renew Offer Type}}{character what type of renewal offer were they given?}
-#'   \item{\code{Sales Channel}}{character sales channel}
-#'   \item{\code{Total Claim Amount}}{double total amount of claims made by policyholder?? seems low}
-#'   \item{\code{Vehicle Class}}{character type of vehicle insured}
-#'   \item{\code{Vehicle Size}}{character size of insured vehicle} 
+#'   \item{\code{customer}}{character Customer ID}
+#'   \item{\code{state}}{character U.S. state of residence}
+#'   \item{\code{customer_lifetime_value}}{double value of customer to company in USD}
+#'   \item{\code{response}}{character unsure what this is:  if responded to marketing?}
+#'   \item{\code{coverage}}{character type of auto insurance policy}
+#'   \item{\code{education}}{character level of education}
+#'   \item{\code{effective_to_date}}{character }
+#'   \item{\code{employment_status}}{character employment status}
+#'   \item{\code{gender}}{character gender}
+#'   \item{\code{income}}{double income, USD}
+#'   \item{\code{location_code}}{character type of location of policyholder residence}
+#'   \item{\code{marital_status}}{character marital status}
+#'   \item{\code{monthly_premium_auto}}{double monthly cost of auto premium}
+#'   \item{\code{months_since_last_claim}}{double number of months since last claim}
+#'   \item{\code{months_since_policy_inception}}{double months since became a policyholder}
+#'   \item{\code{number_of_open_complaints}}{double number of open complaints (unsure made by whom about who)}
+#'   \item{\code{number_of_policies}}{double number of policies (other insurance policies by same company)}
+#'   \item{\code{policy_type}}{character type of auto policy}
+#'   \item{\code{policy}}{character further breakdown of type of auto policy}
+#'   \item{\code{renew_offer_type}}{character what type of renewal offer were they given?}
+#'   \item{\code{sales_channel}}{character sales channel}
+#'   \item{\code{total_claim_amount}}{double total amount of claims made by policyholder?? seems low}
+#'   \item{\code{vehicle_class}}{character type of vehicle insured}
+#'   \item{\code{vehicle_size}}{character size of insured vehicle} 
 #'}
 #' @source \url{https://www.kaggle.com/pankajjsh06/ibm-watson-marketing-customer-value-data}
 "CustValue"
