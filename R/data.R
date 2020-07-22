@@ -939,4 +939,17 @@
 "CustValue"
 
 
-
+#' @title HealthIns
+#' @description Simulated data about health insurance expenses from Eric Suess, CSU
+#' @format A data frame with 1338 rows and 7 variables:
+#' \describe{
+#'   \item{\code{age}}{double age in years}
+#'   \item{\code{sex}}{character gender}
+#'   \item{\code{bmi}}{double body mass index:  higher is generally worse}
+#'   \item{\code{children}}{double number of children}
+#'   \item{\code{smoker}}{character yes if smoker; no otherwise}
+#'   \item{\code{region}}{character one of three regions in the U.S.}
+#'   \item{\code{expenses}}{double medical expenses in one year in USD} 
+#'}
+#' @source \url{https://www.kaggle.com/noordeen/insurance-premium-prediction?select=insurance.csv}
+"HealthIns"
