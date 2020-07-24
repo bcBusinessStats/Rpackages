@@ -189,6 +189,7 @@ sinew::makeOxygen(adultdata, add_fields = "source")
   
     
 # 7/22 Add simulated health insurance data
+  #bogus change to try to update documents.
   HealthIns <- read_csv("data-raw/insurance.csv") %>% clean_names()
   usethis::use_data(HealthIns, overwrite = T)
   sinew::makeOxygen(HealthIns, add_fields = "source") 

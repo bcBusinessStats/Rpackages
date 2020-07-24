@@ -940,7 +940,7 @@
 
 
 #' @title HealthIns
-#' @description Simulated data about health insurance expenses from Eric Suess, CSU
+#' @description Simulated data about health insurance expenses from Eric Suess
 #' @format A data frame with 1338 rows and 7 variables:
 #' \describe{
 #'   \item{\code{age}}{double age in years}
